@@ -29,7 +29,7 @@ mtcars %>% summary()
 
 ```{r pressure, echo=FALSE}
 
-
+mtcars %>% ggplot() + aes(x=cyl) + geom_bar() + theme_minimal()
 
 ```
 
