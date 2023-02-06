@@ -49,12 +49,17 @@ some_metrics<-all_description_words %>%
     metric_4=wines/sum(wines) #if you used this word to guess this wine's province how often would you be right
   )
 
-ca_words<-some_metrics$word[some_metrics$metric_4>=1&some_metrics$province=="California"&some_metrics$wines>=10]
-or_words<-some_metrics$word[some_metrics$metric_4>=1&some_metrics$province=="Oregon"&some_metrics$wines>=10]
-ny_words<-some_metrics$word[some_metrics$metric_4>=1&some_metrics$province=="New_York"&some_metrics$wines>=5]
-ma_words<-some_metrics$word[some_metrics$metric_4>=1&some_metrics$province=="Marlborough"&some_metrics$wines>=5]
-cv_words<-some_metrics$word[some_metrics$metric_4>=1&some_metrics$province=="Casablanca_Valley"&some_metrics$wines>=2]
-bu_words<-some_metrics$word[some_metrics$metric_4>=1&some_metrics$province=="Burgundy"&some_metrics$wines>=2]
+ca_words<-some_metrics$word[some_metrics$metric_4>=1&some_metrics$province=="California"&some_metrics$wines>=2]
+or_words<-some_metrics$word[some_metrics$metric_4>=1&some_metrics$province=="Oregon"&some_metrics$wines>=2]
+ny_words<-some_metrics$word[some_metrics$metric_4>=1&some_metrics$province=="New_York"&some_metrics$wines>=1]
+ma_words<-some_metrics$word[some_metrics$metric_4>=1&some_metrics$province=="Marlborough"&some_metrics$wines>=1]
+cv_words<-some_metrics$word[some_metrics$metric_4>=1&some_metrics$province=="Casablanca_Valley"&some_metrics$wines>=1]
+bu_words<-some_metrics$word[some_metrics$metric_4>=1&some_metrics$province=="Burgundy"&some_metrics$wines>=1]
+
+# some_metrics$word[some_metrics$province=="California"]
+# some_metrics %>% 
+#   filter(province=="California"&metric_4==1&wines>10) %>% 
+#   View()
 
 wino<-wine %>% 
   ungroup() %>% 
@@ -81,5 +86,81 @@ fit <- knn(
   cl = train$province, 
   prob = T)
 
+# fit <- train(province ~ .,
+#              data = train, 
+#              method = "naive_bayes",
+#              tuneGrid = expand.grid(usekernel = c(T,F), laplace = T, adjust = T),
+#              metric = "Kappa",
+#              trControl = trainControl(method = "cv"))
+
+# control <- trainControl(method = "boot", number = 1)
+# fit <- train(province ~ .,
+#              data = train, 
+#              method = "knn",
+#              tuneLength = 15,
+#              trControl = control)
+# fit
+
 conf<-confusionMatrix(fit,factor(test$province))
 kappa<-conf$overall[2]
+
+alluvial_data<-conf$table %>%
+  data.frame() %>% 
+  mutate(
+    Prediction=gsub("_"," ",Prediction,fixed = T),
+    Reference=gsub("_"," ",Reference,fixed = T)
+  )
+
+alluvial_summary<-alluvial_data %>% 
+  group_by(Reference) %>% 
+  summarise(n=sum(Freq)) %>% 
+  arrange(-n)
+
+alluvial_data$Reference<-factor(alluvial_data$Reference,levels = alluvial_summary$Reference)
+alluvial_data$Prediction<-factor(alluvial_data$Prediction,levels = alluvial_summary$Reference)
+
+alluvial_data<-alluvial_data %>% 
+  group_by(Prediction) %>%
+  mutate(to_n=sum(Freq)) %>% 
+  group_by(Reference) %>% 
+  mutate(from_n=sum(Freq)) %>% 
+  arrange(Reference,Prediction) %>% 
+  mutate(
+    n2=paste0("(",round(Freq/from_n*100),"%)"),
+    n3=ifelse(Reference==Prediction,paste(Freq,n2),NA)
+    ) %>% 
+  as.data.frame()
+
+is_alluvia_form(alluvial_data)
+
+ggplot(alluvial_data,
+       aes(y = Freq)) +
+  geom_alluvium(width = 1/12,aes(fill=Reference, axis2 = Prediction, axis1 = Reference)) +
+  geom_stratum(data=alluvial_data %>% ungroup(),width = 1/12, color = "black",aes(fill=Prediction,axis1=Reference,axis2=Prediction)) +
+  geom_stratum(data=alluvial_data %>% ungroup() %>% select(-Prediction),width = 1/12, color = "black",aes(fill=Reference,axis2=Reference))+
+  geom_text(stat = "stratum", aes(axis1="",axis2=Prediction,label = after_stat(stratum)),nudge_x = .05,hjust=0)+
+  geom_text(stat = "stratum", aes(axis1=Reference,label = after_stat(stratum)),nudge_x = -.05,hjust=1)+
+  geom_text(stat = "stratum", aes(axis1="",axis2=Prediction,label = (to_n)))+
+  geom_text(stat = "stratum", aes(axis1=Reference,label = (from_n)))+
+  # geom_text(stat = "alluvium", aes(axis1=Prediction,label = (Freq)),nudge_x = .075,size=2)+
+  geom_text(stat = "alluvium", aes(axis1=Prediction,label = (n3)),nudge_x = 0.07,size=2)+
+  labs(y=NULL)+
+  scale_fill_brewer(type="qual",palette =2)+
+  theme_classic()+
+  theme(
+    text = element_text(size=16),
+    panel.grid.major = element_line(color="gray84",size = .25),
+    # axis.text = element_text(size = 12),
+    axis.title = element_text(size = 14),
+    strip.text.x = element_text(size = 14),
+    plot.margin = unit(c(0.25, 0.5, 0.25, 0.25), "cm"),
+    legend.position = "bottom",
+    axis.title.y=element_blank(),
+    axis.text.y=element_blank(),
+    axis.ticks.y=element_blank(),
+    axis.line.y = element_blank()
+  )+
+  guides(fill=F)+
+  scale_x_continuous(breaks = c(1,2),labels = c("Actual","Predicted"),expand = c(.15,.15))+
+  scale_y_continuous(expand = c(0,0),breaks = c(0,sum(alluvial_data$Freq)))
+
