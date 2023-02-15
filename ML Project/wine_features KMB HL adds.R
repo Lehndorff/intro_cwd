@@ -106,12 +106,12 @@ wine_index <- createDataPartition(wino$province, p = 0.8, list = FALSE)
 train <- wino[ wine_index, ]
 test <- wino[-wine_index, ]
 
-fit <- knn(
-  train = select(train,-province), 
-  test = select(test,-province), 
-  k=5, 
-  cl = train$province, 
-  prob = T)
+# fit <- knn(
+#   train = select(train,-province), 
+#   test = select(test,-province), 
+#   k=5, 
+#   cl = train$province, 
+#   prob = T)
 
 # fit <- train(province ~ .,
 #              data = train, 
@@ -120,15 +120,30 @@ fit <- knn(
 #              metric = "Kappa",
 #              trControl = trainControl(method = "cv"))
 
-# control <- trainControl(method = "boot", number = 1)
+control <- trainControl(method = "repeatedcv", number = 5)
+
+#### KNN ####
 # fit <- train(province ~ .,
-#              data = train, 
+#              data = train,
 #              method = "knn",
 #              tuneLength = 15,
 #              trControl = control)
-# fit
 
-conf<-confusionMatrix(fit,factor(test$province))
+# conf<-confusionMatrix(fit$finalModel,factor(test$province))
+# kappa<-conf$overall[2]
+
+#### RF ####
+fit <- train(province ~ .,
+             data = train,
+             method = "rf",
+             tuneLength = 5,
+             trControl = control)
+
+fit
+
+pred <- predict(fit, newdata=test)
+conf<-confusionMatrix(factor(pred),factor(test$province))
+
 kappa<-conf$overall[2]
 
 alluvial_data<-conf$table %>%
