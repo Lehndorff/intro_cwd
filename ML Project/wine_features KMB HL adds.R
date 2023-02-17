@@ -17,9 +17,9 @@ regex_ify<-function(x){
   return(step2)
 }
 
-# wine = read_rds("~/Desktop/MSDS/505-ML/resources/pinot.rds")
+wine = read_rds("~/Desktop/MSDS/505-ML/resources/pinot.rds")
 
-wine = read_rds("C:\\Users\\karyn\\OneDrive\\Documents\\MSDS\\505 - Machine Learning\\ML Homework\\pinot.rds")
+# wine = read_rds("C:\\Users\\karyn\\OneDrive\\Documents\\MSDS\\505 - Machine Learning\\ML Homework\\pinot.rds")
 
 all_description_words<-data.frame(stringr::str_split(wine$description," ",simplify=T),province=wine$province,id=wine$id) %>% 
   pivot_longer(c(-province,-id),values_to="word") %>% 
@@ -94,7 +94,7 @@ wino<-wine %>%
     f_5b=grepl(regex_ify(cv_words2),description,ignore.case = T),
     f_6b=grepl(regex_ify(bu_words2),description,ignore.case = T)
     ) %>% 
-  select(province, lprice, points, f_1:f_6b)
+  select(province, lprice, points, year, f_1:f_6b)
 
 wino = wino %>% 
   preProcess(method = c("BoxCox","center","scale")) %>% 
