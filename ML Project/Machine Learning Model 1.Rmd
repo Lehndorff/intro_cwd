@@ -204,6 +204,14 @@ test <- wino[-wine_index, ]
 # 
 # confusionMatrix(predict(fit_tree, test),factor(test$province))
 
+# ctrl2 <- trainControl(method = "boot", number=1)
+# 
+# fit_xg <- train(province ~ .,
+#              data = train,
+#              method = "xgbTree",
+#              trControl = ctrl2)
+# 
+# fit_xg
 
 #random forest
 # control <- trainControl(method = "boot", number = 1)
