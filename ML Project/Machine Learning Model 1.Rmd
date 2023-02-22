@@ -85,6 +85,12 @@ some_metrics<-all_description_words %>%
     metric_4=wines/sum(wines) #if you used this word to guess this wine's province how often would you be right
   )
 
+not_these_words<-all_description_words %>% 
+  group_by(word) %>% 
+  filter(n()>1)
+neg_words<-expand.grid(word=unique(not_these_words$word),province=unique(not_these_words$province)) %>% 
+  anti_join(some_metrics)
+
 #create features for model
 ca_words<-some_metrics$word[some_metrics$metric_4>=1&some_metrics$province=="California"&some_metrics$wines>=1][1:2500]
 or_words<-some_metrics$word[some_metrics$metric_4>=1&some_metrics$province=="Oregon"&some_metrics$wines>=1][1:2500]
@@ -99,6 +105,24 @@ ma_words2<-some_metrics$word[some_metrics$metric_4>=.3&some_metrics$metric_4<1&s
 cv_words2<-some_metrics$word[some_metrics$metric_4>=.3&some_metrics$metric_4<1&some_metrics$province=="Casablanca_Valley"&some_metrics$wines>=1]
 bu_words2<-some_metrics$word[some_metrics$metric_4>=.7&some_metrics$metric_4<1&some_metrics$province=="Burgundy"&some_metrics$wines>=1]
 
+not_these_words<-all_description_words %>% 
+  group_by(word) %>% 
+  filter(n()>1) %>% 
+  filter(!word%in%c(ca_words,or_words,ny_words,ma_words,cv_words,bu_words))
+neg_words<-expand.grid(word=unique(not_these_words$word),province=unique(not_these_words$province)) %>% 
+  anti_join(some_metrics) %>% 
+  left_join(
+    not_these_words %>% 
+      group_by(word) %>% 
+      summarise(provs=n_distinct(province),count=n())) %>% 
+  arrange(-count,-provs)
+
+no_ca_words<-as.character(neg_words$word[neg_words$province=="California"])[1:2500]
+no_or_words<-as.character(neg_words$word[neg_words$province=="Oregon"])[1:2500]
+no_ny_words<-as.character(neg_words$word[neg_words$province=="New_York"])[1:2500]
+no_ma_words<-as.character(neg_words$word[neg_words$province=="Marlborough"])[1:2500]
+no_cv_words<-as.character(neg_words$word[neg_words$province=="Casablanca_Valley"])[1:2500]
+no_bu_words<-as.character(neg_words$word[neg_words$province=="Burgundy"])[1:2500]
 
 wino<-wine %>% 
   ungroup() %>% 
@@ -117,9 +141,15 @@ wino<-wine %>%
     f_3b=grepl(regex_ify(ny_words2),description,ignore.case = T),
     f_4b=grepl(regex_ify(ma_words2),description,ignore.case = T),
     f_5b=grepl(regex_ify(cv_words2),description,ignore.case = T),
-    f_6b=grepl(regex_ify(bu_words2),description,ignore.case = T)
+    f_6b=grepl(regex_ify(bu_words2),description,ignore.case = T),
+    f_1c=grepl(regex_ify(no_ca_words),description,ignore.case = T),
+    f_2c=grepl(regex_ify(no_or_words),description,ignore.case = T),
+    f_3c=grepl(regex_ify(no_ny_words),description,ignore.case = T),
+    f_4c=grepl(regex_ify(no_ma_words),description,ignore.case = T),
+    f_5c=grepl(regex_ify(no_cv_words),description,ignore.case = T),
+    f_6c=grepl(regex_ify(no_bu_words),description,ignore.case = T)
     ) %>% 
-  select(province, lprice, points, f_1:f_6b)
+  select(province, lprice, points, f_1:f_6c)
 
 #scale price and points 
 wino = wino %>% 
