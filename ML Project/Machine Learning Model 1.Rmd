@@ -21,7 +21,8 @@ library(fastDummies)
 library(tidytext)
 library(ggalluvial)
 
-wine = read_rds("./pinot.rds") 
+# wine = read_rds("./pinot.rds") 
+wine = read_rds("~/Desktop/MSDS/505-ML/resources/pinot.rds")
 
 head(wine)
 ```
@@ -142,51 +143,51 @@ train <- wino[ wine_index, ]
 test <- wino[-wine_index, ]
 
 #nearest neighbor
-fit_tune <- train(province ~ .,
-             data = train, 
-             method = "knn",
-             tuneLength = 15,
-             trControl = control)
-
-fit_tune
-
-fit_knn <- knn(
-  train = select(train,-province), 
-  test = select(test,-province), 
-  k=11, 
-  cl = train$province, 
-  prob = T)
-
-print(fit_knn)
-
-pred <- predict(fit_knn, newdata=test)
-confusionMatrix(factor(pred),factor(test$province))
-
-#tree
-fit_tree <- train(province ~ .,
-             data = train, 
-             method = "rpart",
-             trControl = ctrl,
-             metric = "Kappa")
-
-fit_tree
-
-confusionMatrix(predict(fit_tree, test),factor(test$province))
+# fit_tune <- train(province ~ .,
+#              data = train, 
+#              method = "knn",
+#              tuneLength = 15,
+#              trControl = control)
+# 
+# fit_tune
+# 
+# fit_knn <- knn(
+#   train = select(train,-province), 
+#   test = select(test,-province), 
+#   k=11, 
+#   cl = train$province, 
+#   prob = T)
+# 
+# print(fit_knn)
+# 
+# pred <- predict(fit_knn, newdata=test)
+# confusionMatrix(factor(pred),factor(test$province))
+# 
+# #tree
+# fit_tree <- train(province ~ .,
+#              data = train, 
+#              method = "rpart",
+#              trControl = ctrl,
+#              metric = "Kappa")
+# 
+# fit_tree
+# 
+# confusionMatrix(predict(fit_tree, test),factor(test$province))
 
 
 #random forest
-control <- trainControl(method = "boot", number = 1)
+# control <- trainControl(method = "boot", number = 1)
 fit_rf <- train(province ~ .,
              data = train,
              method = "rf",
-             trControl = control)
+             trControl = ctrl)
 
 fit_rf
 
 pred <- predict(fit_rf, newdata=test)
 confusionMatrix(factor(pred),factor(test$province))
 
-
+fit=fit_rf
 
 
 ```
@@ -215,7 +216,7 @@ test <- wino[-wine_index, ]
 # example spec for knn
 fit_final <- train(province ~ .,
              data = train, 
-             method = "rpart",
+             method = "rf",
              tuneGrid=fit$bestTune) 
 # The last line means we will fit a model using the best tune parameters your CV found above.
 
