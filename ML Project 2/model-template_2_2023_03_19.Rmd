@@ -80,7 +80,7 @@ test <- banko[-bank_index, ]
 
 # example spec for rf
 fit <- train(Churn ~ .,
-             data = train, 
+             data = train,
              method = "rf",
              ntree = 500,
              tuneLength = 30,
@@ -88,7 +88,29 @@ fit <- train(Churn ~ .,
              weights = weight_train$weights,
              trControl = ctrl)
 
+#no improvement
+# fit <- train(Churn ~ .,
+#              data = train, 
+#              method = "gbm",
+#              verbose=FALSE,
+#              trControl = ctrl)
+
+
+# fit <- train(Churn ~ .,
+#              data = train, 
+#              method = "xgbTree",
+#              verbose=FALSE,
+#              trControl = ctrl)
+
+
 fit
+
+
+
+
+variable_importance = varImp(fit, scale=FALSE)
+
+plot(variable_importance, top=5)
 
 confusionMatrix(predict(fit, test),factor(test$Churn))
 ```
