@@ -1,0 +1,183 @@
+---
+title: "Modeling Assignment 2"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(caret)
+library(pROC)
+library(MLmetrics)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Setup
+
+```{r}
+#bank = read_rds("../resources/BankChurners.rds") 
+bank = read_rds("./BankChurners.rds")
+```
+
+
+## Feature Engineering
+
+```{r}
+# create some cool features. Make sure you add comments so I know what you are trying to accomplish!
+# banko <- bank %>% 
+#   # mutate(age2=Customer_Age^2) %>%
+#   select(Card_Category, Months_Inactive_12_mon, Education_Level, Contacts_Count_12_mon, Dependent_count, Churn)
+#   # Please do use some PCA! Doesn't have to be all 5 features!
+
+bank2<-bank %>% 
+  fastDummies::dummy_cols(remove_selected_columns = T)
+
+pr_churn <- prcomp(x = select(bank2,-contains("Churn")), scale = T, center = T)
+
+summary(pr_churn)
+
+screeplot(pr_churn,type = "lines")
+
+# bind_cols(select(bank,Churn),as.data.frame(pr_churn$x)) %>%
+#   # select(Churn,) %>%
+#   pivot_longer(cols = -Churn,names_to = "component",values_to = "loading") %>%
+#   ggplot(aes(loading, fill=Churn))+
+#   geom_density(alpha=0.5)+
+#   facet_wrap(.~component,scales = "free")
+
+banko<-bind_cols(bank,as.data.frame(pr_churn$x)) %>% 
+   select(Total_Trans_Ct, Total_Revolving_Bal, PC26, PC8, Total_Trans_Amt, Churn) #0.9734
+  # select("Total_Trans_Amt","Total_Trans_Ct","Total_Revolving_Bal","PC31","Total_Ct_Chng_Q4_Q1",Churn) #0.9709
+  # select(Total_Trans_Amt,Total_Amt_Chng_Q4_Q1,PC22,Customer_Age,PC34,Churn) #0.9709
+  # select(Total_Trans_Ct,PC26,Total_Trans_Amt,PC22,PC6, Churn) #0.9616
+  # select(PC4,Total_Ct_Chng_Q4_Q1,Total_Trans_Amt,Total_Trans_Ct,PC28,Churn) #0.9617
+  # select(PC1, PC2, PC3, PC4, Churn) #0.8241
+  # select(PC1, PC2, PC3, PC4, Total_Trans_Amt, Churn) #0.8241
+
+
+
+print(ncol(banko)) # Only 5 features allowed for project 2! Not counting the dependent variable.
+
+```
+
+
+## Specification
+
+```{r}
+# specify the model to be used (i.e. KNN, Naive Bayes, decision tree, random forest, bagged trees) and the tuning parameters used
+
+ctrl <- trainControl(method = "cv", number = 3, classProbs=TRUE, summaryFunction = twoClassSummary)
+set.seed(504) 
+
+bank_index <- createDataPartition(banko$Churn, p = 0.80, list = FALSE)
+train <- banko[ bank_index, ]
+test <- banko[-bank_index, ]
+
+#not improving things
+# weight_train <- train %>% 
+#   mutate(weights=case_when(
+#     Churn =="yes" ~ 5,
+#     Churn =="no" ~ 1))
+
+# example spec for rf
+fit <- train(Churn ~ .,
+             data = train, 
+             method = "rf",
+             ntree = 500,
+             tuneLength = 30,
+             metric = "ROC",
+             weights = weight_train$weights,
+             trControl = ctrl)
+
+fit
+
+confusionMatrix(predict(fit, test),factor(test$Churn))
+```
+
+
+## Best model
+
+```{r}
+# Here are a few lines to inspect your best model. Add some comments about optimal hyperparameters.
+print(fit)
+print(fit$bestTune)
+```
+
+
+## Re-fit and evaluation
+
+```{r}
+# the "method" below should match the one you chose above. 
+
+set.seed(1504) # I will choose a different seed for evaluation
+
+bank_index <- createDataPartition(banko$Churn, p = 0.80, list = FALSE)
+train <- banko[ bank_index, ]
+test <- banko[-bank_index, ]
+
+# example spec for rf
+fit_final <- train(Churn ~ .,
+             data = train, 
+             method = "rf",
+             tuneGrid=fit$bestTune,
+             metric = "ROC",
+             trControl = ctrl) 
+# The last line means we will fit a model using the best tune parameters your CV found above.
+
+myRoc <- roc(test$Churn, predict(fit_final, test, type="prob")[,2])
+
+plot(myRoc)
+auc(myRoc)
+```
+
+```{r Karyn's mysterious 100% model}
+
+library(tidyverse)
+library(caret)
+library(pROC)
+library(MLmetrics)
+library(fastDummies)
+
+
+ex = read_rds("./BankChurners.rds") %>% mutate(Churn = ifelse(Churn == 'yes', 1, 0)) %>%
+  dummy_cols(remove_selected_columns = T)
+
+pr_ex = prcomp(x = select(ex, -contains("Churn")), scale=T, center = T) #components made without Churn column
+
+screeplot(pr_ex, type="lines")
+
+summary(pr_ex)
+
+# rownames_to_column(as.data.frame(pr_ex$rotation)) %>%
+#   select(1:8) %>%
+#   filter(abs(PC1) >= 0.25 | abs(PC2) >= 0.25 | abs(PC3) >= 0.25 | abs(PC4) >= 0.25)
+
+#create dataset of just components
+prc_ex = bind_cols(select(bank, Churn), as.data.frame(pr_ex$x)) %>%
+  select(1:5) #%>%
+  #dplyr::rename("High credit men" = PC1, "Middle aged men" = PC2, "Young spenders" = PC3, "Old Spenders"= PC4)
+
+# prc_ex %>%
+#   pivot_longer(cols = -Churn, names_to = "component", values_to = "loading") %>%
+#   ggplot(aes(loading, fill=Churn)) + 
+#   geom_density(alpha = 0.5) + 
+#   facet_grid(.~component)
+
+#no limit random forest
+fit_ex <- train(as.factor(Churn) ~ .,
+             data = prc_ex, 
+             method = "rf",
+             metric = "Kappa",
+             trControl = trainControl(method = "cv"))
+
+varImp(fit_ex)
+
+
+
+confusionMatrix(predict(fit_ex, prc_ex),factor(prc_ex$Churn))
+
+
+#ex %>% group_by(Churn) %>% summarize(n=n()/10127)
+
+
+```
+
