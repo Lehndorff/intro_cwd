@@ -9,6 +9,7 @@
 "2008-09","MAC",23,13,0.639,10,6,0.625,3.37,-2.01,66.8,60.3,NA,NA,NA,"Lost NCAA Tournament First Round","13","Keith Dambrot (23-13)","Akron Zips Men's Basketball",2009,"Lost NCAA Tournament First Round",64
 "1985-86","OVC",22,8,0.733,10,4,0.714,0.05,-3.79,76.2,68.5,NA,NA,NA,"Lost NCAA Tournament First Round","15","Bob Huggins (22-8)","Akron Zips Men's Basketball",1986,"Lost NCAA Tournament First Round",64
 "2004-05","SWAC",18,14,0.563,12,6,0.667,-11.96,-12.86,69.7,67.8,NA,NA,NA,"Lost NCAA Tournament Opening Round","16","Vann Pettaway (18-14)","Alabama A&M Bulldogs Men's Basketball",2005,"Lost NCAA Tournament First Round",64
+"2022-23","SEC",31,6,0.838,16,2,0.889,23.18,9.64,81.8,68.3,20,1,1,"Lost NCAA Tournament Regional Semifinal","1","Nate Oats (31-6)","Alabama Crimson Tide Men's Basketball",2023,"Lost NCAA Tournament Regional Semifinal",16
 "2021-22","SEC",19,14,0.576,9,9,0.5,14.62,11.59,79.5,76.5,14,6,NA,"Lost NCAA Tournament First Round","6","Nate Oats (19-14)","Alabama Crimson Tide Men's Basketball",2022,"Lost NCAA Tournament First Round",64
 "2020-21","SEC",26,7,0.788,16,2,0.889,19.58,10.01,79.7,70.1,NA,5,5,"Lost NCAA Tournament Regional Semifinal","2","Nate Oats (26-7)","Alabama Crimson Tide Men's Basketball",2021,"Lost NCAA Tournament Regional Semifinal",16
 "2017-18","SEC",20,16,0.556,8,10,0.444,12.34,10.64,72.3,70.6,NA,24,NA,"Lost NCAA Tournament Second Round","9","Avery Johnson (20-16)","Alabama Crimson Tide Men's Basketball",2018,"Lost NCAA Tournament Second Round",32
@@ -42,12 +43,14 @@
 "2007-08","Patriot",21,12,0.636,10,4,0.714,-1.87,-4,64.8,62.1,NA,NA,NA,"Lost NCAA Tournament First Round","15","Jeff Jones (21-12)","American Eagles Men's Basketball",2008,"Lost NCAA Tournament First Round",64
 "2020-21","Sun Belt",17,12,0.586,7,8,0.467,-5.84,-5.72,70.3,64.1,NA,NA,NA,"Lost NCAA Tournament First Four","16","Dustin Kerns (17-12)","Appalachian State Mountaineers Men's Basketball",2021,"Lost NCAA Tournament First Round",64
 "1999-00","Southern",23,9,0.719,13,3,0.813,2.49,-3.75,79.1,69.6,NA,NA,NA,"Lost NCAA Tournament First Round","14","Buzz Peterson (23-9)","Appalachian State Mountaineers Men's Basketball",2000,"Lost NCAA Tournament First Round",64
+"2022-23","Pac-12",23,13,0.639,11,9,0.55,11.29,8.17,71.1,68,NA,25,NA,"Lost NCAA Tournament First Round","11","Bobby Hurley (23-13)","Arizona State Sun Devils Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2018-19","Pac-12",23,11,0.676,12,6,0.667,10.28,6.04,77.6,73.4,NA,17,NA,"Lost NCAA Tournament First Round","11","Bobby Hurley (23-11)","Arizona State Sun Devils Men's Basketball",2019,"Lost NCAA Tournament First Round",64
 "2017-18","Pac-12",20,12,0.625,8,10,0.444,14.37,6.55,82.7,74.8,NA,3,NA,"Lost NCAA Tournament First Four","11","Bobby Hurley (20-12)","Arizona State Sun Devils Men's Basketball",2018,"Lost NCAA Tournament First Round",64
 "2013-14","Pac-12",21,12,0.636,10,8,0.556,13.32,7.41,75.3,69.4,NA,NA,NA,"Lost NCAA Tournament Second Round","10","Herb Sendek (21-12)","Arizona State Sun Devils Men's Basketball",2014,"Lost NCAA Tournament Second Round",64
 "2008-09","Pac-10",25,10,0.714,11,7,0.611,16.7,7.82,69.4,60.5,15,14,19,"Lost NCAA Tournament Second Round","6","Herb Sendek (25-10)","Arizona State Sun Devils Men's Basketball",2009,"Lost NCAA Tournament Second Round",32
 "2002-03","Pac-10",20,12,0.625,11,7,0.611,15.02,9.27,77,70.5,NA,NA,NA,"Lost NCAA Tournament Second Round","10","Rob Evans (20-12)","Arizona State Sun Devils Men's Basketball",2003,"Lost NCAA Tournament Second Round",32
 "1990-91","Pac-10",20,10,0.667,10,8,0.556,14.26,8.92,79.3,73.9,NA,NA,NA,"Lost NCAA Tournament Second Round","8","Bill Frieder (20-10)","Arizona State Sun Devils Men's Basketball",1991,"Lost NCAA Tournament Second Round",32
+"2022-23","Pac-12",28,7,0.8,14,6,0.7,19.08,8.34,81.9,71.1,17,4,8,"Lost NCAA Tournament First Round","2","Tommy Lloyd (28-7)","Arizona Wildcats Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2021-22","Pac-12",33,4,0.892,18,2,0.9,22.75,6.84,84,68.1,NA,2,2,"Lost NCAA Tournament Regional Semifinal","1","Tommy Lloyd (33-4)","Arizona Wildcats Men's Basketball",2022,"Lost NCAA Tournament Regional Semifinal",16
 "2017-18","Pac-12",27,8,0.771,14,4,0.778,15.67,6.84,80.5,71.7,3,2,12,"Lost NCAA Tournament First Round","4","Sean Miller (27-8)","Arizona Wildcats Men's Basketball",2018,"Lost NCAA Tournament First Round",64
 "2016-17","Pac-12",32,5,0.865,16,2,0.889,18.25,7.63,76.6,65.9,10,4,4,"Lost NCAA Tournament Regional Semifinal","2","Sean Miller (32-5)","Arizona Wildcats Men's Basketball",2017,"Lost NCAA Tournament Regional Semifinal",16
@@ -77,6 +80,7 @@
 "1986-87","Pac-10",18,12,0.6,13,5,0.722,13.49,6.63,75.6,68.8,19,19,NA,"Lost NCAA Tournament First Round","10","Lute Olson (18-12)","Arizona Wildcats Men's Basketball",1987,"Lost NCAA Tournament First Round",64
 "1985-86","Pac-10",23,9,0.719,14,4,0.778,9.76,4.16,68.8,62.3,NA,NA,NA,"Lost NCAA Tournament First Round","9","Lute Olson (23-9)","Arizona Wildcats Men's Basketball",1986,"Lost NCAA Tournament First Round",64
 "1984-85","Pac-10",21,10,0.677,12,6,0.667,11.05,4.44,68.5,60.3,NA,19,NA,"Lost NCAA Tournament First Round","10","Lute Olson (21-10)","Arizona Wildcats Men's Basketball",1985,"Lost NCAA Tournament First Round",64
+"2022-23","SEC",22,14,0.611,8,10,0.444,15.98,9.87,74.1,67.9,10,9,NA,"Lost NCAA Tournament Regional Semifinal","8","Eric Musselman (22-14)","Arkansas Razorbacks Men's Basketball",2023,"Lost NCAA Tournament Regional Semifinal",16
 "2021-22","SEC",28,9,0.757,13,5,0.722,16.27,8.62,75.9,68.3,16,10,17,"Lost NCAA Tournament Regional Final","4","Eric Musselman (28-9)","Arkansas Razorbacks Men's Basketball",2022,"Lost NCAA Tournament Regional Final",8
 "2020-21","SEC",25,7,0.781,13,4,0.765,17.8,7.18,81.4,70.8,NA,8,10,"Lost NCAA Tournament Regional Final","3","Eric Musselman (25-7)","Arkansas Razorbacks Men's Basketball",2021,"Lost NCAA Tournament Regional Final",8
 "2017-18","SEC",23,12,0.657,10,8,0.556,14.76,9.85,80.5,75.6,NA,22,NA,"Lost NCAA Tournament First Round","7","Mike Anderson (23-12)","Arkansas Razorbacks Men's Basketball",2018,"Lost NCAA Tournament First Round",64
@@ -101,6 +105,7 @@
 "1984-85","SWC",22,13,0.629,10,6,0.625,9.79,6.19,65.3,61.7,16,16,NA,"Lost NCAA Tournament Second Round","9","Eddie Sutton (22-13)","Arkansas Razorbacks Men's Basketball",1985,"Lost NCAA Tournament Second Round",32
 "1998-99","Sun Belt",18,12,0.6,9,5,0.643,3.32,-0.72,73.5,68.7,NA,NA,NA,"Lost NCAA Tournament First Round","15","Dickey Nutt (18-12)","Arkansas State Red Wolves Men's Basketball",1999,"Lost NCAA Tournament First Round",64
 "2009-10","SWAC",18,16,0.529,14,4,0.778,-8.29,-7.68,63.7,64.3,NA,NA,NA,"Lost NCAA Tournament First Round","16","George Ivory (18-16)","Arkansas-Pine Bluff Golden Lions Men's Basketball",2010,"Lost NCAA Tournament First Round",64
+"2022-23","SEC",21,13,0.618,10,8,0.556,14.34,9.28,72.8,67.7,15,11,NA,"Lost NCAA Tournament Second Round","9","Bruce Pearl (21-13)","Auburn Tigers Men's Basketball",2023,"Lost NCAA Tournament Second Round",32
 "2021-22","SEC",28,6,0.824,15,3,0.833,19.2,8.17,78.2,67.2,22,1,8,"Lost NCAA Tournament Second Round","2","Bruce Pearl (28-6)","Auburn Tigers Men's Basketball",2022,"Lost NCAA Tournament Second Round",32
 "2018-19","SEC",30,10,0.75,11,7,0.611,20.84,10.92,79.7,68.8,11,7,14,"Lost NCAA Tournament National Semifinal","5","Bruce Pearl (30-10)","Auburn Tigers Men's Basketball",2019,"Lost NCAA Tournament National Semifinal",4
 "2017-18","SEC",26,8,0.765,13,5,0.722,15.97,7.29,81.9,73.2,NA,8,19,"Lost NCAA Tournament Second Round","4","Bruce Pearl (26-8)","Auburn Tigers Men's Basketball",2018,"Lost NCAA Tournament Second Round",32
@@ -122,6 +127,7 @@
 "1989-90","MAC",26,7,0.788,13,3,0.813,12.02,1.05,71.5,58.6,NA,NA,NA,"Lost NCAA Tournament Regional Semifinal","12","Dick Hunsaker (26-7)","Ball State Cardinals Men's Basketball",1990,"Lost NCAA Tournament Regional Semifinal",16
 "1988-89","MAC",29,3,0.906,14,2,0.875,9.48,0.12,71.9,61.5,NA,18,18,"Lost NCAA Tournament Second Round","9","Rick Majerus (29-3)","Ball State Cardinals Men's Basketball",1989,"Lost NCAA Tournament Second Round",32
 "1985-86","MAC",21,10,0.677,11,7,0.611,0.29,-1.75,73.3,70.8,NA,NA,NA,"Lost NCAA Tournament First Round","14","Al Brown (21-10)","Ball State Cardinals Men's Basketball",1986,"Lost NCAA Tournament First Round",64
+"2022-23","Big 12",23,11,0.676,11,7,0.611,17.3,10.53,77,70.3,5,5,11,"Lost NCAA Tournament Second Round","3","Scott Drew (23-11)","Baylor Bears Men's Basketball",2023,"Lost NCAA Tournament Second Round",32
 "2021-22","Big 12",27,7,0.794,14,4,0.778,21.73,8.76,77,64.1,8,1,4,"Lost NCAA Tournament Second Round","1","Scott Drew (27-7)","Baylor Bears Men's Basketball",2022,"Lost NCAA Tournament Second Round",32
 "2020-21","Big 12",28,2,0.933,13,1,0.929,24.83,7.4,82.9,65.5,2,2,3,"Won NCAA Tournament National Final","1","Scott Drew (28-2)","Baylor Bears Men's Basketball",2021,"Won NCAA Tournament National Final",1
 "2018-19","Big 12",20,14,0.588,10,8,0.556,13.38,9.26,71.8,67.7,NA,NA,NA,"Lost NCAA Tournament Second Round","9","Scott Drew (20-14)","Baylor Bears Men's Basketball",2019,"Lost NCAA Tournament Second Round",32
@@ -142,6 +148,7 @@
 "2006-07","A-Sun",23,10,0.697,14,4,0.778,-0.39,-4.71,72.4,64.5,NA,NA,NA,"Lost NCAA Tournament First Round","15","Rick Byrd (23-10)","Belmont Bruins Men's Basketball",2007,"Lost NCAA Tournament First Round",64
 "2005-06","A-Sun",20,11,0.645,15,5,0.75,-3.53,-6.72,80.6,76,NA,NA,NA,"Lost NCAA Tournament First Round","15","Rick Byrd (20-11)","Belmont Bruins Men's Basketball",2006,"Lost NCAA Tournament First Round",64
 "2008-09","AEC",23,9,0.719,13,3,0.813,-3.27,-5.62,70,67.4,NA,NA,NA,"Lost NCAA Tournament First Round","15","Kevin Broadus (23-9)","Binghamton Bearcats Men's Basketball",2009,"Lost NCAA Tournament First Round",64
+"2022-23","MWC",24,10,0.706,13,5,0.722,12.78,6.2,72.1,64.6,NA,NA,NA,"Lost NCAA Tournament First Round","10","Leon Rice (24-10)","Boise State Broncos Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2021-22","MWC",27,8,0.771,15,3,0.833,11.93,5.22,68.3,60.9,NA,23,23,"Lost NCAA Tournament First Round","8","Leon Rice (27-8)","Boise State Broncos Men's Basketball",2022,"Lost NCAA Tournament First Round",64
 "2014-15","MWC",25,9,0.735,14,4,0.778,10.01,1.38,70.3,60.1,NA,25,NA,"Lost NCAA Tournament First Round","11","Leon Rice (25-9)","Boise State Broncos Men's Basketball",2015,"Lost NCAA Tournament Second Round",64
 "2012-13","MWC",21,11,0.656,9,7,0.563,9.38,5.21,73.2,65.5,NA,NA,NA,"Lost NCAA Tournament First Round","13","Leon Rice (21-11)","Boise State Broncos Men's Basketball",2013,"Lost NCAA Tournament Second Round",64
@@ -310,11 +317,13 @@
 "2013-14","Big South",21,13,0.618,11,5,0.688,-5.21,-6.31,72.3,68.4,NA,NA,NA,"Lost NCAA Tournament Second Round","16","Cliff Ellis (21-13)","Coastal Carolina Chanticleers Men's Basketball",2014,"Lost NCAA Tournament Second Round",64
 "1992-93","Big South",22,10,0.688,NA,NA,0.75,-3.91,-7.88,77.8,70.9,NA,NA,NA,"Lost NCAA Tournament First Round","16","Russ Bergman (22-10)","Coastal Carolina Chanticleers Men's Basketball",1993,"Lost NCAA Tournament First Round",64
 "1990-91","Big South",24,8,0.75,13,1,0.929,-0.44,-9.47,73.1,64.7,NA,NA,NA,"Lost NCAA Tournament First Round","15","Russ Bergman (24-8)","Coastal Carolina Chanticleers Men's Basketball",1991,"Lost NCAA Tournament First Round",64
+"2022-23","Patriot",26,9,0.743,17,1,0.944,2.21,-5.85,78.1,69.3,NA,NA,NA,"Lost NCAA Tournament First Round","15","Matt Langel (26-9)","Colgate Raiders Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2021-22","Patriot",23,12,0.657,16,2,0.889,0.98,-6.37,75.6,67.1,NA,NA,NA,"Lost NCAA Tournament First Round","14","Matt Langel (23-12)","Colgate Raiders Men's Basketball",2022,"Lost NCAA Tournament First Round",64
 "2020-21","Patriot",14,2,0.875,11,1,0.917,13.66,-1.9,85.2,69.6,NA,NA,NA,"Lost NCAA Tournament First Round","14","Matt Langel (14-2)","Colgate Raiders Men's Basketball",2021,"Lost NCAA Tournament First Round",64
 "2018-19","Patriot",24,11,0.686,13,5,0.722,1.23,-3.83,75.7,70.2,NA,NA,NA,"Lost NCAA Tournament First Round","15","Matt Langel (24-11)","Colgate Raiders Men's Basketball",2019,"Lost NCAA Tournament First Round",64
 "1995-96","Patriot",15,15,0.5,9,3,0.75,-4.67,-3.63,72.1,73.2,NA,NA,NA,"Lost NCAA Tournament First Round","16","Jack Bruen (15-15)","Colgate Raiders Men's Basketball",1996,"Lost NCAA Tournament First Round",64
 "1994-95","Patriot",17,13,0.567,11,3,0.786,-5.5,-4.94,76.5,77.1,NA,NA,NA,"Lost NCAA Tournament First Round","16","Jack Bruen (17-13)","Colgate Raiders Men's Basketball",1995,"Lost NCAA Tournament First Round",64
+"2022-23","CAA",31,4,0.886,16,2,0.889,8.4,-4.01,80.1,67.2,NA,18,NA,"Lost NCAA Tournament First Round","12","Pat Kelsey (31-4)","College of Charleston Cougars Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2017-18","CAA",26,8,0.765,14,4,0.778,1.83,-3.29,74.6,68.6,NA,NA,NA,"Lost NCAA Tournament First Round","13","Earl Grant (26-8)","College of Charleston Cougars Men's Basketball",2018,"Lost NCAA Tournament First Round",64
 "1998-99","Southern",28,3,0.903,16,0,1,5.98,-6.63,72.8,59.2,NA,16,16,"Lost NCAA Tournament First Round","8","John Kresse (28-3)","College of Charleston Cougars Men's Basketball",1999,"Lost NCAA Tournament First Round",64
 "1997-98","TAAC",24,6,0.8,14,2,0.875,4.44,-9.03,70.1,55.4,NA,NA,NA,"Lost NCAA Tournament First Round","14","John Kresse (24-6)","College of Charleston Cougars Men's Basketball",1998,"Lost NCAA Tournament First Round",64
@@ -333,6 +342,7 @@
 "2002-03","MWC",19,14,0.576,5,9,0.357,5.38,4.41,74.2,71.6,NA,NA,NA,"Lost NCAA Tournament First Round","14","Dale Layer (19-14)","Colorado State Rams Men's Basketball",2003,"Lost NCAA Tournament First Round",64
 "1989-90","WAC",21,9,0.7,11,5,0.688,10.55,3.17,67.6,59.3,NA,NA,NA,"Lost NCAA Tournament First Round","10","Tiny Grant (21-9)","Colorado State Rams Men's Basketball",1990,"Lost NCAA Tournament First Round",64
 "1988-89","WAC",23,10,0.697,12,4,0.75,7.54,4.73,64.4,61,NA,NA,NA,"Lost NCAA Tournament Second Round","10","Tiny Grant (23-10)","Colorado State Rams Men's Basketball",1989,"Lost NCAA Tournament Second Round",32
+"2022-23","Big East",31,8,0.795,13,7,0.65,22.95,8.51,78.6,64.1,NA,2,10,"Won NCAA Tournament National Final","4","Dan Hurley (31-8)","Connecticut Huskies Men's Basketball",2023,"Won NCAA Tournament National Final",1
 "2021-22","Big East",23,10,0.697,13,6,0.684,16.4,6.88,74.8,65.3,24,15,21,"Lost NCAA Tournament First Round","5","Dan Hurley (23-10)","Connecticut Huskies Men's Basketball",2022,"Lost NCAA Tournament First Round",64
 "2020-21","Big East",15,8,0.652,11,6,0.647,15.77,8.59,71.7,64.6,NA,23,NA,"Lost NCAA Tournament First Round","7","Dan Hurley (15-8)","Connecticut Huskies Men's Basketball",2021,"Lost NCAA Tournament First Round",64
 "2015-16","AAC",25,11,0.694,11,7,0.611,15.89,6.28,73.1,63.5,20,18,NA,"Lost NCAA Tournament Second Round","9","Kevin Ollie (25-11)","Connecticut Huskies Men's Basketball",2016,"Lost NCAA Tournament Second Round",32
@@ -362,6 +372,7 @@
 "2008-09","Ivy",21,10,0.677,11,3,0.786,2.71,-4.01,73.6,64.7,NA,NA,NA,"Lost NCAA Tournament First Round","14","Steve Donahue (21-10)","Cornell Big Red Men's Basketball",2009,"Lost NCAA Tournament First Round",64
 "2007-08","Ivy",22,6,0.786,14,0,1,0.76,-4.74,76.3,68.5,NA,NA,NA,"Lost NCAA Tournament First Round","14","Steve Donahue (22-6)","Cornell Big Red Men's Basketball",2008,"Lost NCAA Tournament First Round",64
 "1987-88","Ivy",17,10,0.63,11,3,0.786,-5.46,-4.77,75.3,74.9,NA,NA,NA,"Lost NCAA Tournament First Round","16","Mike Dement (17-10)","Cornell Big Red Men's Basketball",1988,"Lost NCAA Tournament First Round",64
+"2022-23","Big East",24,13,0.649,14,6,0.7,17.83,9.8,76.4,68.4,9,7,NA,"Lost NCAA Tournament Regional Final","6","Greg McDermott (24-13)","Creighton Bluejays Men's Basketball",2023,"Lost NCAA Tournament Regional Final",8
 "2021-22","Big East",23,12,0.657,12,7,0.632,11.34,8.54,69.2,66.4,NA,NA,NA,"Lost NCAA Tournament Second Round","9","Greg McDermott (23-12)","Creighton Bluejays Men's Basketball",2022,"Lost NCAA Tournament Second Round",32
 "2020-21","Big East",22,9,0.71,14,6,0.7,16.28,8.54,76,68.2,11,7,19,"Lost NCAA Tournament Regional Semifinal","5","Greg McDermott (22-9)","Creighton Bluejays Men's Basketball",2021,"Lost NCAA Tournament Regional Semifinal",16
 "2017-18","Big East",21,12,0.636,10,8,0.556,16.35,8.1,83.5,74.1,NA,25,NA,"Lost NCAA Tournament First Round","8","Greg McDermott (21-12)","Creighton Bluejays Men's Basketball",2018,"Lost NCAA Tournament First Round",64
@@ -414,6 +425,7 @@
 "2011-12","Horizon",22,14,0.611,11,7,0.611,2.4,-0.01,72.1,67.6,NA,NA,NA,"Lost NCAA Tournament Second Round","15","Ray McCallum (22-14)","Detroit Mercy Titans Men's Basketball",2012,"Lost NCAA Tournament Second Round",64
 "1998-99","MW Coll",25,6,0.806,12,2,0.857,8.1,-0.17,63.4,55.3,NA,NA,NA,"Lost NCAA Tournament Second Round","12","Perry Watson (25-6)","Detroit Mercy Titans Men's Basketball",1999,"Lost NCAA Tournament Second Round",32
 "1997-98","MW Coll",25,6,0.806,12,2,0.857,9.86,0.49,74.6,63.1,NA,NA,NA,"Lost NCAA Tournament Second Round","10","Perry Watson (25-6)","Detroit Mercy Titans Men's Basketball",1998,"Lost NCAA Tournament Second Round",32
+"2022-23","MVC",27,8,0.771,15,5,0.75,7.85,-1.12,74.8,63.9,NA,NA,NA,"Lost NCAA Tournament First Round","12","Darian DeVries (27-8)","Drake Bulldogs Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2020-21","MVC",26,5,0.839,15,3,0.833,9.42,-0.48,75.9,64.5,NA,25,NA,"Lost NCAA Tournament First Round","11","Darian DeVries (26-5)","Drake Bulldogs Men's Basketball",2021,"Lost NCAA Tournament First Round",64
 "2007-08","MVC",28,5,0.848,15,3,0.833,14.08,4.15,73.9,62.1,NA,14,14,"Lost NCAA Tournament First Round","5","Keno Davis (28-5)","Drake Bulldogs Men's Basketball",2008,"Lost NCAA Tournament First Round",64
 "2020-21","CAA",12,8,0.6,4,5,0.444,-0.97,-3.92,70.4,67.4,NA,NA,NA,"Lost NCAA Tournament First Round","16","Zach Spiker (12-8)","Drexel Dragons Men's Basketball",2021,"Lost NCAA Tournament First Round",64
@@ -421,6 +433,7 @@
 "1994-95","NAC",22,8,0.733,12,4,0.75,5.68,-3.69,75.4,66,NA,NA,NA,"Lost NCAA Tournament First Round","13","Bill Herrion (22-8)","Drexel Dragons Men's Basketball",1995,"Lost NCAA Tournament First Round",64
 "1993-94","NAC",25,5,0.833,12,2,0.857,3.27,-6.21,76.5,65.6,NA,NA,NA,"Lost NCAA Tournament First Round","13","Bill Herrion (25-5)","Drexel Dragons Men's Basketball",1994,"Lost NCAA Tournament First Round",64
 "1985-86","ECC",19,12,0.613,11,3,0.786,-7.56,-8.67,74.5,72.7,NA,NA,NA,"Lost NCAA Tournament First Round","15","Eddie Burke (19-12)","Drexel Dragons Men's Basketball",1986,"Lost NCAA Tournament First Round",64
+"2022-23","ACC",27,9,0.75,14,6,0.7,15.84,7.45,72,63.6,7,7,12,"Lost NCAA Tournament Second Round","5","Jon Scheyer (27-9)","Duke Blue Devils Men's Basketball",2023,"Lost NCAA Tournament Second Round",32
 "2021-22","ACC",32,7,0.821,16,4,0.8,19.55,7.26,80.1,67.8,9,1,9,"Lost NCAA Tournament National Semifinal","2","Mike Krzyzewski (32-7)","Duke Blue Devils Men's Basketball",2022,"Lost NCAA Tournament National Semifinal",4
 "2018-19","ACC",32,6,0.842,14,4,0.778,26.9,11.98,82.7,67.8,4,1,1,"Lost NCAA Tournament Regional Final","1","Mike Krzyzewski (32-6)","Duke Blue Devils Men's Basketball",2019,"Lost NCAA Tournament Regional Final",8
 "2017-18","ACC",29,8,0.784,13,5,0.722,24.43,9.7,84.4,69.6,1,1,9,"Lost NCAA Tournament Regional Final","2","Mike Krzyzewski (29-8)","Duke Blue Devils Men's Basketball",2018,"Lost NCAA Tournament Regional Final",8
@@ -485,6 +498,7 @@
 "1996-97","MAAC",11,19,0.367,2,12,0.143,-5.18,-2.38,66.4,69.2,NA,NA,NA,"Lost NCAA Tournament First Round","16","Paul Cormier (11-19)","Fairfield Stags Men's Basketball",1997,"Lost NCAA Tournament First Round",64
 "1986-87","MAAC",15,16,0.484,5,9,0.357,-3.91,-3.17,65.8,66.5,NA,NA,NA,"Lost NCAA Tournament First Round","16","Mitch Buonaguro (15-16)","Fairfield Stags Men's Basketball",1987,"Lost NCAA Tournament First Round",64
 "1985-86","MAAC",24,7,0.774,13,1,0.929,-3.65,-6.65,65.3,61.9,NA,NA,NA,"Lost NCAA Tournament First Round","13","Mitch Buonaguro (24-7)","Fairfield Stags Men's Basketball",1986,"Lost NCAA Tournament First Round",64
+"2022-23","NEC",21,16,0.568,10,6,0.625,-8.97,-9.83,77.4,74.2,NA,NA,NA,"Lost NCAA Tournament Second Round","16","Jack Castleberry (0-0), Tobin Anderson (21-16)","Fairleigh Dickinson Knights Men's Basketball",2023,"Lost NCAA Tournament Second Round",32
 "2018-19","NEC",21,14,0.6,12,6,0.667,-6.09,-7.24,74.9,71.9,NA,NA,NA,"Lost NCAA Tournament First Round","16","Greg Herenda (21-14)","Fairleigh Dickinson Knights Men's Basketball",2019,"Lost NCAA Tournament First Round",64
 "2015-16","NEC",18,15,0.545,11,7,0.611,-10.9,-8.31,77.5,78.8,NA,NA,NA,"Lost NCAA Tournament First Four","16","Greg Herenda (18-15)","Fairleigh Dickinson Knights Men's Basketball",2016,"Lost NCAA Tournament First Round",64
 "2004-05","NEC",20,13,0.606,13,5,0.722,-4.13,-6.91,73.7,70,NA,NA,NA,"Lost NCAA Tournament First Round","16","Tom Green (20-13)","Fairleigh Dickinson Knights Men's Basketball",2005,"Lost NCAA Tournament First Round",64
@@ -494,6 +508,7 @@
 "2006-07","MEAC",21,14,0.6,12,6,0.667,-9.73,-7.49,70.5,70.5,NA,NA,NA,"Lost NCAA Tournament Opening Round","16","Mike Gillespie (21-14)","Florida A&M Rattlers Men's Basketball",2007,"Lost NCAA Tournament First Round",64
 "2003-04","MEAC",15,17,0.469,10,8,0.556,-9.85,-7.94,72.2,74.1,NA,NA,NA,"Lost NCAA Tournament First Round","16","Mike Gillespie (15-17)","Florida A&M Rattlers Men's Basketball",2004,"Lost NCAA Tournament First Round",64
 "1998-99","MEAC",12,19,0.387,8,11,0.421,-14.6,-9.76,72.6,77.5,NA,NA,NA,"Lost NCAA Tournament First Round","16","Mickey Clayton (12-19)","Florida A&M Rattlers Men's Basketball",1999,"Lost NCAA Tournament First Round",64
+"2022-23","CUSA",35,4,0.897,18,2,0.9,13.85,2.23,77.8,65.3,NA,19,25,"Lost NCAA Tournament National Semifinal","9","Dusty May (35-4)","Florida Atlantic Owls Men's Basketball",2023,"Lost NCAA Tournament National Semifinal",4
 "2001-02","A-Sun",19,12,0.613,13,7,0.65,-3.94,-5.32,74.3,72.1,NA,NA,NA,"Lost NCAA Tournament First Round","15","Sidney Green (19-12)","Florida Atlantic Owls Men's Basketball",2002,"Lost NCAA Tournament First Round",64
 "2020-21","SEC",15,10,0.6,9,7,0.563,13.7,9.82,74.2,70.3,NA,22,NA,"Lost NCAA Tournament Second Round","7","Michael White (15-10)","Florida Gators Men's Basketball",2021,"Lost NCAA Tournament Second Round",32
 "2018-19","SEC",20,16,0.556,9,9,0.5,15.42,11.22,67.8,63.6,NA,NA,NA,"Lost NCAA Tournament Second Round","10","Michael White (20-16)","Florida Gators Men's Basketball",2019,"Lost NCAA Tournament Second Round",32
@@ -536,6 +551,7 @@
 "1987-88","Metro",19,11,0.633,7,5,0.583,11.81,3.71,84.3,76.3,NA,NA,NA,"Lost NCAA Tournament First Round","12","Pat Kennedy (19-11)","Florida State Seminoles Men's Basketball",1988,"Lost NCAA Tournament First Round",64
 "1991-92","Patriot",18,13,0.581,11,3,0.786,0.69,-2.64,71.1,67.8,NA,NA,NA,"Lost NCAA Tournament First Round","14","Nick Macarchuk (18-13)","Fordham Rams Men's Basketball",1992,"Lost NCAA Tournament First Round",64
 "2015-16","MWC",25,10,0.714,13,5,0.722,5.27,2.24,75.1,70.7,NA,NA,NA,"Lost NCAA Tournament First Round","14","Rodney Terry (25-10)","Fresno State Bulldogs Men's Basketball",2016,"Lost NCAA Tournament First Round",64
+"2022-23","Southern",28,8,0.778,15,3,0.833,4.88,-2.91,80.9,71.2,NA,NA,NA,"Lost NCAA Tournament Second Round","13","Bob Richey (28-8)","Furman Paladins Men's Basketball",2023,"Lost NCAA Tournament Second Round",32
 "2018-19","Big South",23,12,0.657,11,6,0.647,-2.61,-4.43,77.7,70.5,NA,NA,NA,"Lost NCAA Tournament First Round","16","Tim Craft (23-12)","Gardner-Webb Runnin' Bulldogs Men's Basketball",2019,"Lost NCAA Tournament First Round",64
 "2010-11","CAA",27,7,0.794,16,2,0.889,11.66,1.37,72.8,62.5,NA,NA,NA,"Lost NCAA Tournament Third Round","8","Jim Larranaga (27-7)","George Mason Patriots Men's Basketball",2011,"Lost NCAA Tournament Third Round",32
 "2007-08","CAA",23,11,0.676,12,6,0.667,6.07,-0.75,69.3,62.5,NA,NA,NA,"Lost NCAA Tournament First Round","12","Jim Larranaga (23-11)","George Mason Patriots Men's Basketball",2008,"Lost NCAA Tournament First Round",64
@@ -607,6 +623,7 @@
 "1986-87","ACC",16,13,0.552,7,7,0.5,11.23,8.99,70.7,68.5,6,6,NA,"Lost NCAA Tournament First Round","7","Bobby Cremins (16-13)","Georgia Tech Yellow Jackets Men's Basketball",1987,"Lost NCAA Tournament First Round",64
 "1985-86","ACC",27,7,0.794,11,3,0.786,21.77,11.71,75.1,63.6,1,1,6,"Lost NCAA Tournament Regional Semifinal","2","Bobby Cremins (27-7)","Georgia Tech Yellow Jackets Men's Basketball",1986,"Lost NCAA Tournament Regional Semifinal",16
 "1984-85","ACC",27,8,0.771,9,5,0.643,16.45,7.42,69.9,60.9,20,6,6,"Lost NCAA Tournament Regional Final","2","Bobby Cremins (27-8)","Georgia Tech Yellow Jackets Men's Basketball",1985,"Lost NCAA Tournament Regional Final",8
+"2022-23","WCC",31,6,0.838,14,2,0.875,18.99,8.04,86.1,73.4,2,2,9,"Lost NCAA Tournament Regional Final","3","Mark Few (31-6)","Gonzaga Bulldogs Men's Basketball",2023,"Lost NCAA Tournament Regional Final",8
 "2021-22","WCC",28,4,0.875,13,1,0.929,25.46,4.5,87.2,66.2,1,1,1,"Lost NCAA Tournament Regional Semifinal","1","Mark Few (28-4)","Gonzaga Bulldogs Men's Basketball",2022,"Lost NCAA Tournament Regional Semifinal",16
 "2020-21","WCC",31,1,0.969,15,0,1,27.2,5.92,91,69.7,1,1,1,"Lost NCAA Tournament National Final","1","Mark Few (31-1)","Gonzaga Bulldogs Men's Basketball",2021,"Lost NCAA Tournament National Final",2
 "2018-19","WCC",33,4,0.892,16,0,1,27.79,5.01,87.6,64.9,3,1,4,"Lost NCAA Tournament Regional Final","1","Mark Few (33-4)","Gonzaga Bulldogs Men's Basketball",2019,"Lost NCAA Tournament Regional Final",8
@@ -631,6 +648,7 @@
 "1999-00","WCC",26,9,0.743,11,3,0.786,16.38,4.64,77.7,66,24,22,NA,"Lost NCAA Tournament Regional Semifinal","10","Mark Few (26-9)","Gonzaga Bulldogs Men's Basketball",2000,"Lost NCAA Tournament Regional Semifinal",16
 "1998-99","WCC",28,7,0.8,12,2,0.857,15.03,2.21,78.4,65.1,NA,NA,NA,"Lost NCAA Tournament Regional Final","10","Dan Monson (28-7)","Gonzaga Bulldogs Men's Basketball",1999,"Lost NCAA Tournament Regional Final",8
 "1994-95","WCC",21,9,0.7,7,7,0.5,8.57,-0.21,76.5,66.1,NA,NA,NA,"Lost NCAA Tournament First Round","14","Dan Fitzgerald (21-9)","Gonzaga Bulldogs Men's Basketball",1995,"Lost NCAA Tournament First Round",64
+"2022-23","WAC",24,12,0.667,10,7,0.588,4.42,1.27,75.2,67.3,NA,NA,NA,"Lost NCAA Tournament First Round","14","Bryce Drew (24-12)","Grand Canyon Antelopes Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2020-21","WAC",17,7,0.708,9,3,0.75,5.11,-3.46,75.5,62.1,NA,NA,NA,"Lost NCAA Tournament First Round","15","Bryce Drew (17-7)","Grand Canyon Antelopes Men's Basketball",2021,"Lost NCAA Tournament First Round",64
 "2015-16","Horizon",23,13,0.639,11,7,0.611,1.16,-0.67,83.7,80,NA,NA,NA,"Lost NCAA Tournament First Round","14","Linc Darner (23-13)","Green Bay Phoenix Men's Basketball",2016,"Lost NCAA Tournament First Round",64
 "1995-96","MW Coll",25,4,0.862,16,0,1,8.05,-0.88,64.8,55.9,NA,22,NA,"Lost NCAA Tournament First Round","8","Mike Heideman (25-4)","Green Bay Phoenix Men's Basketball",1996,"Lost NCAA Tournament First Round",64
@@ -660,6 +678,7 @@
 "2001-02","Patriot",18,15,0.545,9,5,0.643,-1.61,-5.1,63.1,59.6,NA,NA,NA,"Lost NCAA Tournament First Round","16","Ralph Willard (18-15)","Holy Cross Crusaders Men's Basketball",2002,"Lost NCAA Tournament First Round",64
 "2000-01","Patriot",22,8,0.733,10,2,0.833,-0.31,-5.84,67.8,62.3,NA,NA,NA,"Lost NCAA Tournament First Round","15","Ralph Willard (22-8)","Holy Cross Crusaders Men's Basketball",2001,"Lost NCAA Tournament First Round",64
 "1992-93","Patriot",23,7,0.767,12,2,0.857,2.59,-5.04,85.4,77.8,NA,NA,NA,"Lost NCAA Tournament First Round","13","George Blaney (23-7)","Holy Cross Crusaders Men's Basketball",1993,"Lost NCAA Tournament First Round",64
+"2022-23","AAC",33,4,0.892,17,1,0.944,22.2,4.79,74.9,57.5,3,1,2,"Lost NCAA Tournament Regional Semifinal","1","Kelvin Sampson (33-4)","Houston Cougars Men's Basketball",2023,"Lost NCAA Tournament Regional Semifinal",16
 "2021-22","AAC",32,6,0.842,15,3,0.833,22.55,6.47,74.8,58.8,15,6,15,"Lost NCAA Tournament Regional Final","5","Kelvin Sampson (32-6)","Houston Cougars Men's Basketball",2022,"Lost NCAA Tournament Regional Final",8
 "2020-21","AAC",28,4,0.875,14,3,0.824,21.66,5.37,76.1,58.2,17,5,6,"Lost NCAA Tournament National Semifinal","2","Kelvin Sampson (28-4)","Houston Cougars Men's Basketball",2021,"Lost NCAA Tournament National Semifinal",4
 "2018-19","AAC",33,4,0.892,16,2,0.889,18.91,4.61,75.3,61,NA,8,11,"Lost NCAA Tournament Regional Semifinal","3","Kelvin Sampson (33-4)","Houston Cougars Men's Basketball",2019,"Lost NCAA Tournament Regional Semifinal",16
@@ -668,10 +687,12 @@
 "1991-92","SWC",25,6,0.806,11,3,0.786,12.14,4.35,77.7,68.8,NA,NA,NA,"Lost NCAA Tournament First Round","10","Pat Foster (25-6)","Houston Cougars Men's Basketball",1992,"Lost NCAA Tournament First Round",64
 "1989-90","SWC",25,8,0.758,13,3,0.813,10.89,4.48,81.2,73.5,NA,NA,NA,"Lost NCAA Tournament First Round","8","Pat Foster (25-8)","Houston Cougars Men's Basketball",1990,"Lost NCAA Tournament First Round",64
 "1986-87","SWC",18,12,0.6,9,7,0.563,11.82,4.5,67.9,60.6,NA,NA,NA,"Lost NCAA Tournament First Round","12","Pat Foster (18-12)","Houston Cougars Men's Basketball",1987,"Lost NCAA Tournament First Round",64
+"2022-23","MEAC",22,13,0.629,11,3,0.786,-5.04,-5.13,75.3,72.6,NA,NA,NA,"Lost NCAA Tournament First Round","16","Kenneth Blakeney (22-13)","Howard Bison Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "1991-92","MEAC",17,14,0.548,12,4,0.75,-12.47,-10.71,70.3,72,NA,NA,NA,"Lost NCAA Tournament First Round","16","Butch Beard (17-14)","Howard Bison Men's Basketball",1992,"Lost NCAA Tournament First Round",64
 "1986-87","Big Sky",15,16,0.484,5,9,0.357,-1.17,0.37,68.7,67.2,NA,NA,NA,"Lost NCAA Tournament First Round","16","Jim Boutin (15-16)","Idaho State Bengals Men's Basketball",1987,"Lost NCAA Tournament First Round",64
 "1989-90","Big Sky",25,6,0.806,13,3,0.813,6.79,-3.92,76.9,65.2,NA,NA,NA,"Lost NCAA Tournament First Round","13","Kermit Davis (25-6)","Idaho Vandals Men's Basketball",1990,"Lost NCAA Tournament First Round",64
 "1988-89","Big Sky",25,6,0.806,13,3,0.813,10.45,-2.62,76.2,61.1,NA,NA,NA,"Lost NCAA Tournament First Round","13","Kermit Davis (25-6)","Idaho Vandals Men's Basketball",1989,"Lost NCAA Tournament First Round",64
+"2022-23","Big Ten",20,13,0.606,11,9,0.55,14.82,7.67,74.3,67.2,23,16,NA,"Lost NCAA Tournament First Round","9","Brad Underwood (20-13)","Illinois Fighting Illini Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2021-22","Big Ten",23,10,0.697,15,5,0.75,16.69,9.48,74.4,67.2,11,10,19,"Lost NCAA Tournament Second Round","4","Brad Underwood (23-10)","Illinois Fighting Illini Men's Basketball",2022,"Lost NCAA Tournament Second Round",32
 "2020-21","Big Ten",24,7,0.774,16,4,0.8,23.25,11.34,80.5,68.6,8,2,2,"Lost NCAA Tournament Second Round","1","Brad Underwood (24-7)","Illinois Fighting Illini Men's Basketball",2021,"Lost NCAA Tournament Second Round",32
 "2012-13","Big Ten",23,13,0.639,8,10,0.444,13.18,10.04,68.5,64.8,NA,10,NA,"Lost NCAA Tournament Third Round","7","John Groce (23-13)","Illinois Fighting Illini Men's Basketball",2013,"Lost NCAA Tournament Third Round",32
@@ -703,6 +724,7 @@
 "2003-04","Horizon",24,8,0.75,12,4,0.75,6,-0.47,69.5,63,NA,NA,NA,"Lost NCAA Tournament First Round","13","Jimmy Collins (24-8)","Illinois-Chicago Flames Men's Basketball",2004,"Lost NCAA Tournament First Round",64
 "2001-02","Horizon",20,14,0.588,8,8,0.5,1.46,1.43,73.6,70.6,NA,NA,NA,"Lost NCAA Tournament First Round","15","Jimmy Collins (20-14)","Illinois-Chicago Flames Men's Basketball",2002,"Lost NCAA Tournament First Round",64
 "1997-98","MW Coll",22,6,0.786,12,2,0.857,9.21,0.67,74.6,66.1,NA,NA,NA,"Lost NCAA Tournament First Round","9","Jimmy Collins (22-6)","Illinois-Chicago Flames Men's Basketball",1998,"Lost NCAA Tournament First Round",64
+"2022-23","Big Ten",23,12,0.657,12,8,0.6,14.96,8.9,74.7,68.7,13,10,21,"Lost NCAA Tournament Second Round","4","Mike Woodson (23-12)","Indiana Hoosiers Men's Basketball",2023,"Lost NCAA Tournament Second Round",32
 "2021-22","Big Ten",21,14,0.6,9,11,0.45,12.71,8.08,70.8,66.2,NA,NA,NA,"Lost NCAA Tournament First Round","12","Mike Woodson (21-14)","Indiana Hoosiers Men's Basketball",2022,"Lost NCAA Tournament First Round",64
 "2015-16","Big Ten",27,8,0.771,15,3,0.833,19.59,6.9,82.6,69.9,15,10,14,"Lost NCAA Tournament Regional Semifinal","5","Tom Crean (27-8)","Indiana Hoosiers Men's Basketball",2016,"Lost NCAA Tournament Regional Semifinal",16
 "2014-15","Big Ten",20,14,0.588,9,9,0.5,12.94,7.2,77.4,71.7,NA,22,NA,"Lost NCAA Tournament Second Round","10","Tom Crean (20-14)","Indiana Hoosiers Men's Basketball",2015,"Lost NCAA Tournament Second Round",64
@@ -731,6 +753,7 @@
 "2010-11","MVC",20,14,0.588,12,6,0.667,3.41,2.9,66.3,64.5,NA,NA,NA,"Lost NCAA Tournament Second Round","14","Greg Lansing (20-14)","Indiana State Sycamores Men's Basketball",2011,"Lost NCAA Tournament Second Round",64
 "2000-01","MVC",22,12,0.647,10,8,0.556,6.97,2.51,72.9,67.8,NA,NA,NA,"Lost NCAA Tournament Second Round","13","Royce Waltman (22-12)","Indiana State Sycamores Men's Basketball",2001,"Lost NCAA Tournament Second Round",32
 "1999-00","MVC",22,10,0.688,14,4,0.778,6.54,3.23,66.8,63.4,NA,NA,NA,"Lost NCAA Tournament First Round","12","Royce Waltman (22-10)","Indiana State Sycamores Men's Basketball",2000,"Lost NCAA Tournament First Round",64
+"2022-23","MAAC",27,8,0.771,17,3,0.85,7.62,-2.75,76,65.6,NA,NA,NA,"Lost NCAA Tournament First Round","13","Rick Pitino (27-8)","Iona Gaels Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2020-21","MAAC",12,6,0.667,6,3,0.667,-1.2,-6.42,71.3,66.1,NA,NA,NA,"Lost NCAA Tournament First Round","15","Rick Pitino (12-6)","Iona Gaels Men's Basketball",2021,"Lost NCAA Tournament First Round",64
 "2018-19","MAAC",17,16,0.515,12,6,0.667,-4.78,-5.5,76.7,76,NA,NA,NA,"Lost NCAA Tournament First Round","16","Tim Cluess (17-16)","Iona Gaels Men's Basketball",2019,"Lost NCAA Tournament First Round",64
 "2017-18","MAAC",20,14,0.588,11,7,0.611,0.75,-2.19,79.5,76.5,NA,NA,NA,"Lost NCAA Tournament First Round","15","Tim Cluess (20-14)","Iona Gaels Men's Basketball",2018,"Lost NCAA Tournament First Round",64
@@ -743,6 +766,7 @@
 "1999-00","MAAC",20,11,0.645,13,5,0.722,-1.22,-4.13,78.8,75.9,NA,NA,NA,"Lost NCAA Tournament First Round","14","Jeff Ruland (20-11)","Iona Gaels Men's Basketball",2000,"Lost NCAA Tournament First Round",64
 "1997-98","MAAC",27,6,0.818,15,3,0.833,8.55,-2.08,80.4,69.5,NA,NA,NA,"Lost NCAA Tournament First Round","12","Tim Welsh (27-6)","Iona Gaels Men's Basketball",1998,"Lost NCAA Tournament First Round",64
 "1984-85","MAAC",26,5,0.839,11,3,0.786,3.19,-3.87,74.6,67.5,NA,NA,NA,"Lost NCAA Tournament First Round","13","Pat Kennedy (26-5)","Iona Gaels Men's Basketball",1985,"Lost NCAA Tournament First Round",64
+"2022-23","Big Ten",19,14,0.576,11,9,0.55,14.1,8.71,80.1,74.7,NA,25,NA,"Lost NCAA Tournament First Round","8","Fran McCaffery (19-14)","Iowa Hawkeyes Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2021-22","Big Ten",26,10,0.722,12,8,0.6,18.9,6.87,83.2,71.2,NA,16,16,"Lost NCAA Tournament First Round","5","Fran McCaffery (26-10)","Iowa Hawkeyes Men's Basketball",2022,"Lost NCAA Tournament First Round",64
 "2020-21","Big Ten",22,9,0.71,14,6,0.7,21.4,10.43,83.7,72.7,5,3,8,"Lost NCAA Tournament Second Round","2","Fran McCaffery (22-9)","Iowa Hawkeyes Men's Basketball",2021,"Lost NCAA Tournament Second Round",32
 "2018-19","Big Ten",23,12,0.657,10,10,0.5,14.27,9.84,78.3,73.9,NA,14,NA,"Lost NCAA Tournament Second Round","10","Fran McCaffery (23-12)","Iowa Hawkeyes Men's Basketball",2019,"Lost NCAA Tournament Second Round",32
@@ -762,6 +786,7 @@
 "1986-87","Big Ten",30,5,0.857,14,4,0.778,20.59,7.98,87.3,74.4,10,1,6,"Lost NCAA Tournament Regional Final","2","Tom Davis (30-5)","Iowa Hawkeyes Men's Basketball",1987,"Lost NCAA Tournament Regional Final",8
 "1985-86","Big Ten",20,12,0.625,10,8,0.556,15.93,9.28,73.6,65.7,NA,18,NA,"Lost NCAA Tournament First Round","11","George Raveling (20-12)","Iowa Hawkeyes Men's Basketball",1986,"Lost NCAA Tournament First Round",64
 "1984-85","Big Ten",21,11,0.656,10,8,0.556,16.68,6.84,70.2,58.8,NA,11,NA,"Lost NCAA Tournament First Round","8","George Raveling (21-11)","Iowa Hawkeyes Men's Basketball",1985,"Lost NCAA Tournament First Round",64
+"2022-23","Big 12",19,14,0.576,9,9,0.5,15.36,10.39,67.6,62.6,NA,11,NA,"Lost NCAA Tournament First Round","6","T.J. Otzelberger (19-14)","Iowa State Cyclones Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2021-22","Big 12",22,13,0.629,7,11,0.389,12.38,9.33,65.6,62.5,NA,8,NA,"Lost NCAA Tournament Regional Semifinal","11","T.J. Otzelberger (22-13)","Iowa State Cyclones Men's Basketball",2022,"Lost NCAA Tournament Regional Semifinal",16
 "2018-19","Big 12",23,12,0.657,9,9,0.5,18.07,9.3,76.9,68.1,NA,17,24,"Lost NCAA Tournament First Round","6","Steve Prohm (23-12)","Iowa State Cyclones Men's Basketball",2019,"Lost NCAA Tournament First Round",64
 "2016-17","Big 12",24,11,0.686,12,6,0.667,20.51,11.94,80.8,72.3,24,16,16,"Lost NCAA Tournament Second Round","5","Steve Prohm (24-11)","Iowa State Cyclones Men's Basketball",2017,"Lost NCAA Tournament Second Round",32
@@ -790,6 +815,7 @@
 "2016-17","OVC",20,15,0.571,9,7,0.563,-2.85,-3.24,69.5,67.9,NA,NA,NA,"Lost NCAA Tournament First Round","15","Ray Harper (20-15)","Jacksonville State Gamecocks Men's Basketball",2017,"Lost NCAA Tournament First Round",64
 "2012-13","CAA",21,15,0.583,11,7,0.611,-1.67,-2.22,65.2,64.6,NA,NA,NA,"Lost NCAA Tournament Second Round","16","Matt Brady (21-15)","James Madison Dukes Men's Basketball",2013,"Lost NCAA Tournament Second Round",64
 "1993-94","CAA",20,10,0.667,10,4,0.714,2.19,-1.41,83.3,79.7,NA,NA,NA,"Lost NCAA Tournament First Round","14","Lefty Driesell (20-10)","James Madison Dukes Men's Basketball",1994,"Lost NCAA Tournament First Round",64
+"2022-23","Big 12",28,8,0.778,13,5,0.722,19.19,11.83,75.4,68.1,5,2,4,"Lost NCAA Tournament Second Round","1","Bill Self (24-8), Norm Roberts (4-0)","Kansas Jayhawks Men's Basketball",2023,"Lost NCAA Tournament Second Round",32
 "2021-22","Big 12",34,6,0.85,14,4,0.778,22.28,11.3,78.2,67.3,3,3,3,"Won NCAA Tournament National Final","1","Bill Self (34-6)","Kansas Jayhawks Men's Basketball",2022,"Won NCAA Tournament National Final",1
 "2020-21","Big 12",21,9,0.7,12,6,0.667,15.29,10.26,73,67,6,3,12,"Lost NCAA Tournament Second Round","3","Bill Self (21-9)","Kansas Jayhawks Men's Basketball",2021,"Lost NCAA Tournament Second Round",32
 "2018-19","Big 12",26,10,0.722,12,6,0.667,18.35,12.79,75.7,70.1,1,1,17,"Lost NCAA Tournament Second Round","4","Bill Self (26-10)","Kansas Jayhawks Men's Basketball",2019,"Lost NCAA Tournament Second Round",32
@@ -826,6 +852,7 @@
 "1986-87","Big 8",25,11,0.694,9,5,0.643,13.33,7.71,73.7,67.7,8,6,20,"Lost NCAA Tournament Regional Semifinal","5","Larry Brown (25-11)","Kansas Jayhawks Men's Basketball",1987,"Lost NCAA Tournament Regional Semifinal",16
 "1985-86","Big 8",35,4,0.897,13,1,0.929,23.18,10.42,80.5,67.5,5,2,2,"Lost NCAA Tournament National Semifinal","1","Larry Brown (35-4)","Kansas Jayhawks Men's Basketball",1986,"Lost NCAA Tournament National Semifinal",4
 "1984-85","Big 8",26,8,0.765,11,3,0.786,11.83,6.27,75.4,69.4,19,9,13,"Lost NCAA Tournament Second Round","3","Larry Brown (26-8)","Kansas Jayhawks Men's Basketball",1985,"Lost NCAA Tournament Second Round",32
+"2022-23","Big 12",26,10,0.722,11,7,0.611,15.78,9.48,76.2,69.9,NA,5,15,"Lost NCAA Tournament Regional Final","3","Jerome Tang (26-10)","Kansas State Wildcats Men's Basketball",2023,"Lost NCAA Tournament Regional Final",8
 "2018-19","Big 12",25,9,0.735,14,4,0.778,15.39,9.18,65.8,59.6,12,12,18,"Lost NCAA Tournament First Round","4","Bruce Weber (25-9)","Kansas State Wildcats Men's Basketball",2019,"Lost NCAA Tournament First Round",64
 "2017-18","Big 12",25,12,0.676,10,8,0.556,12.85,8.74,71.1,67,NA,NA,NA,"Lost NCAA Tournament Regional Final","9","Bruce Weber (25-12)","Kansas State Wildcats Men's Basketball",2018,"Lost NCAA Tournament Regional Final",8
 "2016-17","Big 12",21,14,0.6,8,10,0.444,14.8,10.48,72.1,67.8,NA,25,NA,"Lost NCAA Tournament First Round","11","Bruce Weber (21-14)","Kansas State Wildcats Men's Basketball",2017,"Lost NCAA Tournament First Round",64
@@ -841,12 +868,15 @@
 "1988-89","Big 8",19,11,0.633,8,6,0.571,13.63,10.41,77.1,73.1,NA,NA,NA,"Lost NCAA Tournament First Round","6","Lon Kruger (19-11)","Kansas State Wildcats Men's Basketball",1989,"Lost NCAA Tournament First Round",64
 "1987-88","Big 8",25,9,0.735,11,3,0.786,15.79,10.14,75.4,68,NA,14,20,"Lost NCAA Tournament Regional Final","4","Lon Kruger (25-9)","Kansas State Wildcats Men's Basketball",1988,"Lost NCAA Tournament Regional Final",8
 "1986-87","Big 8",20,11,0.645,8,6,0.571,10.59,7.16,78.8,72.2,NA,NA,NA,"Lost NCAA Tournament Second Round","9","Lon Kruger (20-11)","Kansas State Wildcats Men's Basketball",1987,"Lost NCAA Tournament Second Round",32
+"2022-23","A-Sun",26,9,0.743,15,3,0.833,0.6,-2.06,75,69,NA,NA,NA,"Lost NCAA Tournament First Round","14","Amir Abdur-Rahim (26-9)","Kennesaw State Owls Men's Basketball",2023,"Lost NCAA Tournament First Round",64
+"2022-23","MAC",28,7,0.8,15,3,0.833,7.59,-1.16,76.1,65.9,NA,NA,NA,"Lost NCAA Tournament First Round","13","Rob Senderoff (28-7)","Kent State Golden Flashes Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2016-17","MAC",22,14,0.611,10,8,0.556,0.88,-1.63,77,73,NA,NA,NA,"Lost NCAA Tournament First Round","14","Rob Senderoff (22-14)","Kent State Golden Flashes Men's Basketball",2017,"Lost NCAA Tournament First Round",64
 "2007-08","MAC",28,7,0.8,13,3,0.813,7.47,0.41,68.9,61.9,NA,23,NA,"Lost NCAA Tournament First Round","9","Jim Christian (28-7)","Kent State Golden Flashes Men's Basketball",2008,"Lost NCAA Tournament First Round",64
 "2005-06","MAC",25,9,0.735,15,3,0.833,6.27,0,72.3,65.9,NA,NA,NA,"Lost NCAA Tournament First Round","12","Jim Christian (25-9)","Kent State Golden Flashes Men's Basketball",2006,"Lost NCAA Tournament First Round",64
 "2001-02","MAC",30,6,0.833,17,1,0.944,13.67,2.1,75.9,64,NA,NA,NA,"Lost NCAA Tournament Regional Final","10","Stan Heath (30-6)","Kent State Golden Flashes Men's Basketball",2002,"Lost NCAA Tournament Regional Final",8
 "2000-01","MAC",24,10,0.706,13,5,0.722,8.69,1.44,70.3,62.3,NA,NA,NA,"Lost NCAA Tournament Second Round","13","Gary Waters (24-10)","Kent State Golden Flashes Men's Basketball",2001,"Lost NCAA Tournament Second Round",32
 "1998-99","MAC",23,7,0.767,13,5,0.722,7.22,2.72,71.9,63.5,NA,NA,NA,"Lost NCAA Tournament First Round","11","Gary Waters (23-7)","Kent State Golden Flashes Men's Basketball",1999,"Lost NCAA Tournament First Round",64
+"2022-23","SEC",22,12,0.647,12,6,0.667,14.75,8.08,74.5,67.8,4,4,NA,"Lost NCAA Tournament Second Round","6","John Calipari (22-12)","Kentucky Wildcats Men's Basketball",2023,"Lost NCAA Tournament Second Round",32
 "2021-22","SEC",26,8,0.765,14,4,0.778,20.9,8.02,79.4,66.6,10,4,7,"Lost NCAA Tournament First Round","2","John Calipari (26-8)","Kentucky Wildcats Men's Basketball",2022,"Lost NCAA Tournament First Round",64
 "2018-19","SEC",30,7,0.811,15,3,0.833,21.43,10.29,75.8,64.7,2,2,7,"Lost NCAA Tournament Regional Final","2","John Calipari (30-7)","Kentucky Wildcats Men's Basketball",2019,"Lost NCAA Tournament Regional Final",8
 "2017-18","SEC",26,11,0.703,10,8,0.556,17.24,10.73,76.8,70.2,5,5,18,"Lost NCAA Tournament Regional Semifinal","5","John Calipari (26-11)","Kentucky Wildcats Men's Basketball",2018,"Lost NCAA Tournament Regional Semifinal",16
@@ -913,6 +943,7 @@
 "2010-11","NEC",27,6,0.818,16,2,0.889,2.23,-5.77,82.7,74.7,NA,NA,NA,"Lost NCAA Tournament Second Round","15","Jim Ferry (27-6)","Long Island University Sharks Men's Basketball",2011,"Lost NCAA Tournament Second Round",64
 "1996-97","NEC",21,9,0.7,15,3,0.833,3.75,-4.22,91.5,83.6,NA,NA,NA,"Lost NCAA Tournament First Round","13","Ray Haskins (21-9)","Long Island University Sharks Men's Basketball",1997,"Lost NCAA Tournament First Round",64
 "2021-22","Big South",26,7,0.788,15,1,0.938,-0.35,-6.11,75.7,65.8,NA,NA,NA,"Lost NCAA Tournament First Round","14","Griff Aldrich (26-7)","Longwood Lancers Men's Basketball",2022,"Lost NCAA Tournament First Round",64
+"2022-23","Sun Belt",26,8,0.765,13,5,0.722,4.26,-0.51,77.4,69.5,NA,NA,NA,"Lost NCAA Tournament First Round","13","Bob Marlin (26-8)","Louisiana Ragin' Cajuns Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2013-14","Sun Belt",23,12,0.657,11,7,0.611,2.91,-0.28,81,75.2,NA,NA,NA,"Lost NCAA Tournament Second Round","14","Bob Marlin (23-12)","Louisiana Ragin' Cajuns Men's Basketball",2014,"Lost NCAA Tournament Second Round",64
 "1999-00","Sun Belt",25,9,0.735,13,3,0.813,2.36,-1.58,71.8,67.7,NA,NA,NA,"Lost NCAA Tournament First Round","13","Jessie Evans (25-9)","Louisiana Ragin' Cajuns Men's Basketball",2000,"Lost NCAA Tournament First Round",64
 "1993-94","Sun Belt",22,8,0.733,13,5,0.722,5.34,-1.04,78.8,71.9,NA,NA,NA,"Lost NCAA Tournament First Round","11","Marty Fletcher (22-8)","Louisiana Ragin' Cajuns Men's Basketball",1994,"Lost NCAA Tournament First Round",64
@@ -984,6 +1015,7 @@
 "1992-93","MAAC",23,7,0.767,12,2,0.857,3.15,-3.05,73.1,66.9,NA,NA,NA,"Lost NCAA Tournament First Round","11","Fran Fraschilla (23-7)","Manhattan Jaspers Men's Basketball",1993,"Lost NCAA Tournament First Round",64
 "1986-87","ECACM",20,10,0.667,15,1,0.938,-3.63,-8.23,68.5,62.9,NA,NA,NA,"Lost NCAA Tournament First Round","14","Dave Magarity (20-10)","Marist Red Foxes Men's Basketball",1987,"Lost NCAA Tournament First Round",64
 "1985-86","ECACM",19,12,0.613,11,5,0.688,-7.47,-9.3,66.3,63.4,NA,NA,NA,"Lost NCAA Tournament First Round","15","Matt Furjanic (19-12)","Marist Red Foxes Men's Basketball",1986,"Lost NCAA Tournament First Round",64
+"2022-23","Big East",29,7,0.806,17,3,0.85,17.07,8.01,79.3,70.3,NA,6,6,"Lost NCAA Tournament Second Round","2","Shaka Smart (29-7)","Marquette Golden Eagles Men's Basketball",2023,"Lost NCAA Tournament Second Round",32
 "2021-22","Big East",19,13,0.594,11,8,0.579,11.36,8.96,74,71.6,NA,18,NA,"Lost NCAA Tournament First Round","9","Shaka Smart (19-13)","Marquette Golden Eagles Men's Basketball",2022,"Lost NCAA Tournament First Round",64
 "2018-19","Big East",24,10,0.706,12,6,0.667,14.78,6.96,77.3,69.5,NA,10,NA,"Lost NCAA Tournament First Round","5","Steve Wojciechowski (24-10)","Marquette Golden Eagles Men's Basketball",2019,"Lost NCAA Tournament First Round",64
 "2016-17","Big East",19,13,0.594,10,8,0.556,15.26,8.6,82.2,75.6,NA,NA,NA,"Lost NCAA Tournament First Round","10","Steve Wojciechowski (19-13)","Marquette Golden Eagles Men's Basketball",2017,"Lost NCAA Tournament First Round",64
@@ -1003,6 +1035,7 @@
 "1992-93","GMWC",20,8,0.714,6,4,0.6,15.68,2.29,73.8,60.4,NA,15,NA,"Lost NCAA Tournament First Round","12","Kevin O'Neill (20-8)","Marquette Golden Eagles Men's Basketball",1993,"Lost NCAA Tournament First Round",64
 "2017-18","CUSA",25,11,0.694,12,6,0.667,4.21,0.44,83.8,79.1,NA,NA,NA,"Lost NCAA Tournament Second Round","13","Dan D'Antoni (25-11)","Marshall Thundering Herd Men's Basketball",2018,"Lost NCAA Tournament Second Round",32
 "1984-85","Southern",21,13,0.618,12,4,0.75,1.94,-2.46,75.2,69.4,NA,NA,NA,"Lost NCAA Tournament First Round","15","Rick Huckabay (21-13)","Marshall Thundering Herd Men's Basketball",1985,"Lost NCAA Tournament First Round",64
+"2022-23","Big Ten",22,13,0.629,11,9,0.55,14.59,8.36,69.7,63.5,NA,13,NA,"Lost NCAA Tournament Second Round","8","Kevin Willard (22-13)","Maryland Terrapins Men's Basketball",2023,"Lost NCAA Tournament Second Round",32
 "2020-21","Big Ten",17,14,0.548,9,11,0.45,13.94,11.97,68.9,65.6,NA,NA,NA,"Lost NCAA Tournament Second Round","10","Mark Turgeon (17-14)","Maryland Terrapins Men's Basketball",2021,"Lost NCAA Tournament Second Round",32
 "2018-19","Big Ten",23,11,0.676,13,7,0.65,16.01,10.09,71.4,65.5,NA,13,NA,"Lost NCAA Tournament Second Round","6","Mark Turgeon (23-11)","Maryland Terrapins Men's Basketball",2019,"Lost NCAA Tournament Second Round",32
 "2016-17","Big Ten",24,9,0.727,12,6,0.667,12.79,8.29,73.9,68.1,25,17,NA,"Lost NCAA Tournament First Round","6","Mark Turgeon (24-9)","Maryland Terrapins Men's Basketball",2017,"Lost NCAA Tournament First Round",64
@@ -1035,6 +1068,7 @@
 "1991-92","A-10",30,5,0.857,13,3,0.813,16.4,4.72,82.4,69.6,NA,17,17,"Lost NCAA Tournament Regional Semifinal","3","John Calipari (30-5)","Massachusetts Minutemen Men's Basketball",1992,"Lost NCAA Tournament Regional Semifinal",16
 "2001-02","Southland",21,9,0.7,17,3,0.85,-0.59,-5.79,70.1,63.6,NA,NA,NA,"Lost NCAA Tournament First Round","14","Tic Price (21-9)","McNeese State Cowboys Men's Basketball",2002,"Lost NCAA Tournament First Round",64
 "1988-89","Southland",16,14,0.533,9,5,0.643,-2.4,-3.23,73.8,72.9,NA,NA,NA,"Lost NCAA Tournament First Round","16","Steve Welch (16-14)","McNeese State Cowboys Men's Basketball",1989,"Lost NCAA Tournament First Round",64
+"2022-23","AAC",26,9,0.743,13,5,0.722,14.5,6.9,79.4,71.8,NA,24,24,"Lost NCAA Tournament First Round","8","Anfernee Hardaway (26-9)","Memphis Tigers Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2021-22","AAC",22,11,0.667,13,5,0.722,14.67,7.86,75.2,68.3,12,9,NA,"Lost NCAA Tournament Second Round","9","Anfernee Hardaway (22-11)","Memphis Tigers Men's Basketball",2022,"Lost NCAA Tournament Second Round",32
 "2013-14","AAC",24,10,0.706,12,6,0.667,13.02,7.14,76.9,70.5,13,11,NA,"Lost NCAA Tournament Third Round","8","Josh Pastner (24-10)","Memphis Tigers Men's Basketball",2014,"Lost NCAA Tournament Third Round",32
 "2012-13","CUSA",31,5,0.861,16,0,1,12.28,2.73,74.5,64.9,17,17,19,"Lost NCAA Tournament Third Round","6","Josh Pastner (31-5)","Memphis Tigers Men's Basketball",2013,"Lost NCAA Tournament Third Round",32
@@ -1053,6 +1087,7 @@
 "1987-88","Metro",20,12,0.625,6,6,0.5,10.18,6.34,78.4,74.6,NA,19,NA,"Lost NCAA Tournament Second Round","9","Larry Finch (20-12)","Memphis Tigers Men's Basketball",1988,"Lost NCAA Tournament Second Round",32
 "2013-14","A-Sun",27,9,0.75,14,4,0.778,5.33,-3.42,78.8,66.9,NA,NA,NA,"Lost NCAA Tournament Third Round","14","Bob Hoffman (27-9)","Mercer Bears Men's Basketball",2014,"Lost NCAA Tournament Third Round",32
 "1984-85","TAAC",22,9,0.71,10,4,0.714,0.3,-7.18,78,69.6,NA,NA,NA,"Lost NCAA Tournament First Round","15","Bill Bibb (22-9)","Mercer Bears Men's Basketball",1985,"Lost NCAA Tournament First Round",64
+"2022-23","ACC",29,8,0.784,15,5,0.75,13.98,6.84,79.1,71.9,NA,12,16,"Lost NCAA Tournament National Semifinal","5","Jim Larranaga (29-8)","Miami (FL) Hurricanes Men's Basketball",2023,"Lost NCAA Tournament National Semifinal",4
 "2021-22","ACC",26,11,0.703,14,6,0.7,11.22,7.62,73.9,70.4,NA,NA,NA,"Lost NCAA Tournament Regional Final","10","Jim Larranaga (26-11)","Miami (FL) Hurricanes Men's Basketball",2022,"Lost NCAA Tournament Regional Final",8
 "2017-18","ACC",22,10,0.688,11,7,0.611,12.83,6.96,73.8,67.9,13,6,22,"Lost NCAA Tournament First Round","6","Jim Larranaga (22-10)","Miami (FL) Hurricanes Men's Basketball",2018,"Lost NCAA Tournament First Round",64
 "2016-17","ACC",21,12,0.636,10,8,0.556,14.48,9.57,69,64.1,NA,25,NA,"Lost NCAA Tournament First Round","8","Jim Larranaga (21-12)","Miami (FL) Hurricanes Men's Basketball",2017,"Lost NCAA Tournament First Round",64
@@ -1070,6 +1105,7 @@
 "1991-92","MAC",23,8,0.742,13,3,0.813,8.37,2.92,68.2,60.9,NA,NA,NA,"Lost NCAA Tournament First Round","13","Joby Wright (23-8)","Miami (OH) RedHawks Men's Basketball",1992,"Lost NCAA Tournament First Round",64
 "1985-86","MAC",24,7,0.774,16,2,0.889,7.41,-0.07,76.8,67.7,NA,NA,NA,"Lost NCAA Tournament First Round","10","Jerry Peirson (24-7)","Miami (OH) RedHawks Men's Basketball",1986,"Lost NCAA Tournament First Round",64
 "1984-85","MAC",20,11,0.645,13,5,0.722,6.64,2.4,72.8,68,NA,NA,NA,"Lost NCAA Tournament First Round","12","Jerry Peirson (20-11)","Miami (OH) RedHawks Men's Basketball",1985,"Lost NCAA Tournament First Round",64
+"2022-23","Big Ten",21,13,0.618,11,8,0.579,14.26,11.26,70.9,67.9,NA,12,NA,"Lost NCAA Tournament Regional Semifinal","7","Tom Izzo (21-13)","Michigan State Spartans Men's Basketball",2023,"Lost NCAA Tournament Regional Semifinal",16
 "2021-22","Big Ten",23,13,0.639,11,9,0.55,13.18,9.96,72.3,69,NA,10,NA,"Lost NCAA Tournament Second Round","7","Tom Izzo (23-13)","Michigan State Spartans Men's Basketball",2022,"Lost NCAA Tournament Second Round",32
 "2020-21","Big Ten",15,13,0.536,9,11,0.45,9.8,11.48,69.4,71.1,13,4,NA,"Lost NCAA Tournament First Four","11","Tom Izzo (15-13)","Michigan State Spartans Men's Basketball",2021,"Lost NCAA Tournament First Round",64
 "2018-19","Big Ten",32,7,0.821,16,4,0.8,24.93,12.34,77.6,65,10,5,5,"Lost NCAA Tournament National Semifinal","2","Tom Izzo (32-7)","Michigan State Spartans Men's Basketball",2019,"Lost NCAA Tournament National Semifinal",4
@@ -1147,6 +1183,7 @@
 "1998-99","SEC",20,13,0.606,8,8,0.5,14.97,8.3,77,67.1,NA,NA,NA,"Lost NCAA Tournament Second Round","9","Rod Barnes (20-13)","Mississippi Rebels Men's Basketball",1999,"Lost NCAA Tournament Second Round",32
 "1997-98","SEC",22,7,0.759,12,4,0.75,17.22,7.07,80.5,68.1,23,10,13,"Lost NCAA Tournament First Round","4","Rob Evans (22-7)","Mississippi Rebels Men's Basketball",1998,"Lost NCAA Tournament First Round",64
 "1996-97","SEC",20,9,0.69,11,5,0.688,11.4,5.76,69,63.5,NA,20,NA,"Lost NCAA Tournament First Round","8","Rob Evans (20-9)","Mississippi Rebels Men's Basketball",1997,"Lost NCAA Tournament First Round",64
+"2022-23","SEC",21,13,0.618,8,10,0.444,11.43,6.69,65.7,61,NA,15,NA,"Lost NCAA Tournament First Four","11","Chris Jans (21-13)","Mississippi State Bulldogs Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2018-19","SEC",23,11,0.676,10,8,0.556,15.96,9.07,77.3,70.4,18,14,NA,"Lost NCAA Tournament First Round","5","Ben Howland (23-11)","Mississippi State Bulldogs Men's Basketball",2019,"Lost NCAA Tournament First Round",64
 "2008-09","SEC",23,13,0.639,9,7,0.563,9.1,4.62,74.4,68.9,NA,NA,NA,"Lost NCAA Tournament First Round","13","Rick Stansbury (23-13)","Mississippi State Bulldogs Men's Basketball",2009,"Lost NCAA Tournament First Round",64
 "2007-08","SEC",23,11,0.676,12,4,0.75,13.42,5.74,73.2,65.5,NA,NA,NA,"Lost NCAA Tournament Second Round","8","Rick Stansbury (23-11)","Mississippi State Bulldogs Men's Basketball",2008,"Lost NCAA Tournament Second Round",32
@@ -1168,6 +1205,7 @@
 "1988-89","Mid-Cont",21,10,0.677,10,2,0.833,5.96,0.69,70.1,63.3,NA,NA,NA,"Lost NCAA Tournament First Round","14","Charles Spoonhour (21-10)","Missouri State Bears Men's Basketball",1989,"Lost NCAA Tournament First Round",64
 "1987-88","Mid-Cont",22,7,0.759,12,2,0.857,7.38,0.16,71.9,63.8,NA,NA,NA,"Lost NCAA Tournament First Round","13","Charles Spoonhour (22-7)","Missouri State Bears Men's Basketball",1988,"Lost NCAA Tournament First Round",64
 "1986-87","Mid-Cont",28,6,0.824,13,1,0.929,9.7,-1.64,NA,NA,NA,NA,NA,"Lost NCAA Tournament Second Round","13","Charles Spoonhour (28-6)","Missouri State Bears Men's Basketball",1987,"Lost NCAA Tournament Second Round",32
+"2022-23","SEC",25,10,0.714,11,7,0.611,11.4,6.89,78.9,74.4,NA,20,23,"Lost NCAA Tournament Second Round","7","Dennis Gates (25-10)","Missouri Tigers Men's Basketball",2023,"Lost NCAA Tournament Second Round",32
 "2020-21","SEC",16,10,0.615,8,8,0.5,12.37,10.87,73.4,71.9,NA,10,NA,"Lost NCAA Tournament First Round","9","Cuonzo Martin (16-10)","Missouri Tigers Men's Basketball",2021,"Lost NCAA Tournament First Round",64
 "2017-18","SEC",20,13,0.606,10,8,0.556,13.81,9.19,72.7,68.1,NA,NA,NA,"Lost NCAA Tournament First Round","8","Cuonzo Martin (20-13)","Missouri Tigers Men's Basketball",2018,"Lost NCAA Tournament First Round",64
 "2012-13","SEC",23,11,0.676,11,7,0.611,15.42,6.01,76.1,66.7,15,7,NA,"Lost NCAA Tournament Second Round","9","Frank Haith (23-11)","Missouri Tigers Men's Basketball",2013,"Lost NCAA Tournament Second Round",64
@@ -1203,6 +1241,7 @@
 "1996-97","Big Sky",21,11,0.656,11,5,0.688,0.58,-3.14,73.1,68.5,NA,NA,NA,"Lost NCAA Tournament First Round","16","Blaine Taylor (21-11)","Montana Grizzlies Men's Basketball",1997,"Lost NCAA Tournament First Round",64
 "1991-92","Big Sky",27,4,0.871,14,2,0.875,7.42,-4.23,76.2,64,NA,NA,NA,"Lost NCAA Tournament First Round","14","Blaine Taylor (27-4)","Montana Grizzlies Men's Basketball",1992,"Lost NCAA Tournament First Round",64
 "1990-91","Big Sky",23,8,0.742,13,3,0.813,-0.4,-5.2,79.1,73.3,NA,NA,NA,"Lost NCAA Tournament First Round","16","Stew Morrill (23-8)","Montana Grizzlies Men's Basketball",1991,"Lost NCAA Tournament First Round",64
+"2022-23","Big Sky",25,10,0.714,15,3,0.833,2.17,-1.44,73.9,66.9,NA,NA,NA,"Lost NCAA Tournament First Round","14","Danny Sprinkle (25-10)","Montana State Bobcats Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2021-22","Big Sky",27,8,0.771,16,4,0.8,-0.26,-5.54,76.5,69.3,NA,NA,NA,"Lost NCAA Tournament First Round","14","Danny Sprinkle (27-8)","Montana State Bobcats Men's Basketball",2022,"Lost NCAA Tournament First Round",64
 "1995-96","Big Sky",21,9,0.7,11,3,0.786,7.48,-2.45,80.8,69.9,NA,NA,NA,"Lost NCAA Tournament First Round","13","Mick Durham (21-9)","Montana State Bobcats Men's Basketball",1996,"Lost NCAA Tournament First Round",64
 "1985-86","Big Sky",14,17,0.452,6,8,0.429,1.15,1.47,76.2,75.4,NA,NA,NA,"Lost NCAA Tournament First Round","16","Stu Starner (14-17)","Montana State Bobcats Men's Basketball",1986,"Lost NCAA Tournament First Round",64
@@ -1239,6 +1278,7 @@
 "1986-87","CAA",26,6,0.813,13,1,0.929,8.83,-1.43,77.3,65.8,9,9,NA,"Lost NCAA Tournament First Round","8","Pete Herrmann (26-6)","Navy Midshipmen Men's Basketball",1987,"Lost NCAA Tournament First Round",64
 "1985-86","CAA",30,5,0.857,13,1,0.929,13.49,1.28,77.2,63.3,19,17,17,"Lost NCAA Tournament Regional Final","7","Paul Evans (30-5)","Navy Midshipmen Men's Basketball",1986,"Lost NCAA Tournament Regional Final",8
 "1984-85","ECACS",26,6,0.813,11,3,0.786,6.97,-3.79,78.4,65.3,NA,NA,NA,"Lost NCAA Tournament Second Round","13","Paul Evans (26-6)","Navy Midshipmen Men's Basketball",1985,"Lost NCAA Tournament Second Round",32
+"2022-23","ACC",23,11,0.676,12,8,0.6,12.5,5.58,77.7,70.8,NA,22,NA,"Lost NCAA Tournament First Round","11","Kevin Keatts (23-11)","NC State Wolfpack Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2017-18","ACC",21,12,0.636,11,7,0.611,12.91,6.7,81.3,75.1,NA,NA,NA,"Lost NCAA Tournament First Round","9","Kevin Keatts (21-12)","NC State Wolfpack Men's Basketball",2018,"Lost NCAA Tournament First Round",64
 "2014-15","ACC",22,14,0.611,10,8,0.556,14.11,9.72,70.1,65.8,NA,NA,NA,"Lost NCAA Tournament Regional Semifinal","8","Mark Gottfried (22-14)","NC State Wolfpack Men's Basketball",2015,"Lost NCAA Tournament Regional Semifinal",16
 "2013-14","ACC",22,14,0.611,9,9,0.5,9.02,7.44,71.1,69.6,NA,NA,NA,"Lost NCAA Tournament Second Round","12","Mark Gottfried (22-14)","NC State Wolfpack Men's Basketball",2014,"Lost NCAA Tournament Second Round",64
@@ -1260,6 +1300,7 @@
 "1991-92","Big 8",19,10,0.655,7,7,0.5,12.6,8.5,80.5,76.4,NA,25,NA,"Lost NCAA Tournament First Round","8","Danny Nee (19-10)","Nebraska Cornhuskers Men's Basketball",1992,"Lost NCAA Tournament First Round",64
 "1990-91","Big 8",26,8,0.765,9,5,0.643,18.46,9.49,87.6,78.6,NA,11,11,"Lost NCAA Tournament First Round","3","Danny Nee (26-8)","Nebraska Cornhuskers Men's Basketball",1991,"Lost NCAA Tournament First Round",64
 "1985-86","Big 8",19,11,0.633,8,6,0.571,11.57,8.93,70.8,66.7,NA,NA,NA,"Lost NCAA Tournament First Round","9","Moe Iba (19-11)","Nebraska Cornhuskers Men's Basketball",1986,"Lost NCAA Tournament First Round",64
+"2022-23","MWC",22,11,0.667,12,6,0.667,10.01,6.41,72.6,67.8,NA,NA,NA,"Lost NCAA Tournament First Four","11","Steve Alford (22-11)","Nevada Wolf Pack Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2018-19","MWC",29,5,0.853,15,3,0.833,16,2.68,80.1,66.8,7,5,20,"Lost NCAA Tournament First Round","7","Eric Musselman (29-5)","Nevada Wolf Pack Men's Basketball",2019,"Lost NCAA Tournament First Round",64
 "2017-18","MWC",29,8,0.784,15,3,0.833,14.44,4.93,82.6,73.1,NA,20,24,"Lost NCAA Tournament Regional Semifinal","7","Eric Musselman (29-8)","Nevada Wolf Pack Men's Basketball",2018,"Lost NCAA Tournament Regional Semifinal",16
 "2016-17","MWC",28,7,0.8,14,4,0.778,10.49,2.03,79.8,71.3,NA,NA,NA,"Lost NCAA Tournament First Round","12","Eric Musselman (28-7)","Nevada Wolf Pack Men's Basketball",2017,"Lost NCAA Tournament First Round",64
@@ -1393,11 +1434,13 @@
 "2004-05","MVC",21,11,0.656,11,7,0.611,10.12,5.29,72.2,66.5,NA,NA,NA,"Lost NCAA Tournament First Round","11","Greg McDermott (21-11)","Northern Iowa Panthers Men's Basketball",2005,"Lost NCAA Tournament First Round",64
 "2003-04","MVC",21,10,0.677,12,6,0.667,6.87,3.21,69.3,65,NA,NA,NA,"Lost NCAA Tournament First Round","14","Greg McDermott (21-10)","Northern Iowa Panthers Men's Basketball",2004,"Lost NCAA Tournament First Round",64
 "1989-90","Mid-Cont",23,9,0.719,6,6,0.5,4.35,0.29,77.9,72.8,NA,NA,NA,"Lost NCAA Tournament Second Round","14","Eldon Miller (23-9)","Northern Iowa Panthers Men's Basketball",1990,"Lost NCAA Tournament Second Round",32
+"2022-23","Horizon",22,13,0.629,14,6,0.7,-0.81,-2.87,67.8,63.5,NA,NA,NA,"Lost NCAA Tournament First Round","16","Darrin Horn (22-13)","Northern Kentucky Norse Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2018-19","Horizon",26,9,0.743,13,5,0.722,4.67,-2.39,78.5,68.9,NA,NA,NA,"Lost NCAA Tournament First Round","14","John Brannen (26-9)","Northern Kentucky Norse Men's Basketball",2019,"Lost NCAA Tournament First Round",64
 "2016-17","Horizon",24,11,0.686,12,6,0.667,-0.17,-2.84,76,71.6,NA,NA,NA,"Lost NCAA Tournament First Round","15","John Brannen (24-11)","Northern Kentucky Norse Men's Basketball",2017,"Lost NCAA Tournament First Round",64
 "2012-13","Southland",23,9,0.719,15,3,0.833,0.39,-3.79,80,71.4,NA,NA,NA,"Lost NCAA Tournament Second Round","14","Mike McConathy (23-9)","Northwestern State Demons Men's Basketball",2013,"Lost NCAA Tournament Second Round",64
 "2005-06","Southland",26,8,0.765,15,1,0.938,4.01,-1.38,75.7,69.6,NA,NA,NA,"Lost NCAA Tournament Second Round","14","Mike McConathy (26-8)","Northwestern State Demons Men's Basketball",2006,"Lost NCAA Tournament Second Round",32
 "2000-01","Southland",19,13,0.594,11,9,0.55,-11.1,-7.81,71.6,74.9,NA,NA,NA,"Lost NCAA Tournament First Round","16","Mike McConathy (19-13)","Northwestern State Demons Men's Basketball",2001,"Lost NCAA Tournament First Round",64
+"2022-23","Big Ten",22,12,0.647,12,8,0.6,13.68,8.71,67.7,62.8,NA,21,NA,"Lost NCAA Tournament Second Round","7","Chris Collins (23-12)","Northwestern Wildcats Men's Basketball",2023,"Lost NCAA Tournament Second Round",32
 "2016-17","Big Ten",24,12,0.667,10,8,0.556,14.02,8.43,71.1,65.5,NA,25,NA,"Lost NCAA Tournament Second Round","8","Chris Collins (24-12)","Northwestern Wildcats Men's Basketball",2017,"Lost NCAA Tournament Second Round",32
 "2021-22","ACC",24,11,0.686,15,5,0.75,11.87,7.01,72.6,67.1,NA,NA,NA,"Lost NCAA Tournament Second Round","11","Mike Brey (24-11)","Notre Dame Fighting Irish Men's Basketball",2022,"Lost NCAA Tournament Second Round",32
 "2016-17","ACC",26,10,0.722,12,6,0.667,17.81,9.78,77.3,69.3,NA,14,14,"Lost NCAA Tournament Second Round","5","Mike Brey (26-10)","Notre Dame Fighting Irish Men's Basketball",2017,"Lost NCAA Tournament Second Round",32
@@ -1501,6 +1544,7 @@
 "1991-92","CAA",15,15,0.5,8,6,0.571,-3.7,1.62,74.7,79.4,NA,NA,NA,"Lost NCAA Tournament First Round","15","Oliver Purnell (15-15)","Old Dominion Monarchs Men's Basketball",1992,"Lost NCAA Tournament First Round",64
 "1985-86","Sun Belt",23,8,0.742,11,3,0.786,9.7,5.49,67,61.5,NA,NA,NA,"Lost NCAA Tournament Second Round","8","Tom Young (23-8)","Old Dominion Monarchs Men's Basketball",1986,"Lost NCAA Tournament Second Round",32
 "1984-85","Sun Belt",19,12,0.613,9,5,0.643,7.43,6.1,74.2,71.8,NA,NA,NA,"Lost NCAA Tournament First Round","12","Paul Webb (19-12)","Old Dominion Monarchs Men's Basketball",1985,"Lost NCAA Tournament First Round",64
+"2022-23","Summit",30,5,0.857,18,0,1,8.55,-2.84,83.3,70.2,NA,NA,NA,"Lost NCAA Tournament First Round","12","Paul Mills (30-5), Russell Springmann (0-0)","Oral Roberts Golden Eagles Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2020-21","Summit",18,11,0.621,10,5,0.667,1.73,-0.04,81.1,75.6,NA,NA,NA,"Lost NCAA Tournament Regional Semifinal","15","Paul Mills (18-11)","Oral Roberts Golden Eagles Men's Basketball",2021,"Lost NCAA Tournament Regional Semifinal",16
 "2007-08","Summit",24,9,0.727,16,2,0.889,5.71,-0.26,69.2,62,NA,NA,NA,"Lost NCAA Tournament First Round","13","Scott Sutton (24-9)","Oral Roberts Golden Eagles Men's Basketball",2008,"Lost NCAA Tournament First Round",64
 "2006-07","Mid-Cont",23,11,0.676,12,2,0.857,4.54,-1.04,71.8,64.9,NA,NA,NA,"Lost NCAA Tournament First Round","14","Scott Sutton (23-11)","Oral Roberts Golden Eagles Men's Basketball",2007,"Lost NCAA Tournament First Round",64
@@ -1529,6 +1573,7 @@
 "2004-05","Big West",27,4,0.871,18,0,1,8.94,1.15,72.8,64.9,NA,17,22,"Lost NCAA Tournament Second Round","8","Bob Thomason (27-4)","Pacific Tigers Men's Basketball",2005,"Lost NCAA Tournament Second Round",32
 "2003-04","Big West",25,8,0.758,17,1,0.944,5.76,0.95,68.8,63.5,NA,NA,NA,"Lost NCAA Tournament Second Round","12","Bob Thomason (25-8)","Pacific Tigers Men's Basketball",2004,"Lost NCAA Tournament Second Round",32
 "1996-97","Big West",24,6,0.8,12,4,0.75,8.72,-2.38,72.9,60,NA,NA,NA,"Lost NCAA Tournament First Round","13","Bob Thomason (24-6)","Pacific Tigers Men's Basketball",1997,"Lost NCAA Tournament First Round",64
+"2022-23","Big Ten",23,14,0.622,10,10,0.5,13.05,9.02,72.2,68.2,NA,NA,NA,"Lost NCAA Tournament Second Round","10","Mike Rhoades (23-14)","Penn State Nittany Lions Men's Basketball",2023,"Lost NCAA Tournament Second Round",32
 "2010-11","Big Ten",19,15,0.559,9,9,0.5,11.98,11.45,63.1,62.5,NA,NA,NA,"Lost NCAA Tournament Second Round","10","Ed DeChellis (19-15)","Penn State Nittany Lions Men's Basketball",2011,"Lost NCAA Tournament Second Round",64
 "2000-01","Big Ten",21,12,0.636,7,9,0.438,12.43,10.55,76.8,74.9,NA,NA,NA,"Lost NCAA Tournament Regional Semifinal","7","Jerry Dunn (21-12)","Penn State Nittany Lions Men's Basketball",2001,"Lost NCAA Tournament Regional Semifinal",16
 "1995-96","Big Ten",21,7,0.75,12,6,0.667,17.08,6.33,74.8,64.1,NA,9,18,"Lost NCAA Tournament First Round","5","Jerry Dunn (21-7)","Penn State Nittany Lions Men's Basketball",1996,"Lost NCAA Tournament First Round",64
@@ -1553,6 +1598,7 @@
 "1990-91","WCC",22,9,0.71,13,1,0.929,5.61,0.88,75.4,70.1,NA,NA,NA,"Lost NCAA Tournament First Round","14","Tom Asbury (22-9)","Pepperdine Waves Men's Basketball",1991,"Lost NCAA Tournament First Round",64
 "1985-86","WCAC",25,5,0.833,13,1,0.929,8.8,-0.79,77.5,67.9,NA,NA,NA,"Lost NCAA Tournament First Round","12","Jim Harrick (25-5)","Pepperdine Waves Men's Basketball",1986,"Lost NCAA Tournament First Round",64
 "1984-85","WCAC",23,9,0.719,11,1,0.917,3.49,-1.26,75.8,71,NA,NA,NA,"Lost NCAA Tournament First Round","14","Jim Harrick (23-9)","Pepperdine Waves Men's Basketball",1985,"Lost NCAA Tournament First Round",64
+"2022-23","ACC",24,12,0.667,14,6,0.7,10.59,5.21,75.1,69.7,NA,25,NA,"Lost NCAA Tournament Second Round","11","Jeff Capel (24-12)","Pittsburgh Panthers Men's Basketball",2023,"Lost NCAA Tournament Second Round",32
 "2015-16","ACC",21,12,0.636,9,9,0.5,15.47,8.75,75,67.3,NA,20,NA,"Lost NCAA Tournament First Round","10","Jamie Dixon (21-12)","Pittsburgh Panthers Men's Basketball",2016,"Lost NCAA Tournament First Round",64
 "2013-14","ACC",26,10,0.722,11,7,0.611,17.46,7.54,71.8,61.9,NA,18,NA,"Lost NCAA Tournament Third Round","9","Jamie Dixon (26-10)","Pittsburgh Panthers Men's Basketball",2014,"Lost NCAA Tournament Third Round",32
 "2012-13","Big East",24,9,0.727,12,6,0.667,18.84,5.66,69.2,56,NA,16,20,"Lost NCAA Tournament Second Round","8","Jamie Dixon (24-9)","Pittsburgh Panthers Men's Basketball",2013,"Lost NCAA Tournament Second Round",64
@@ -1577,6 +1623,7 @@
 "2007-08","Big Sky",23,10,0.697,14,2,0.875,1.72,-3.01,73.9,68,NA,NA,NA,"Lost NCAA Tournament First Round","16","Ken Bone (23-10)","Portland State Vikings Men's Basketball",2008,"Lost NCAA Tournament First Round",64
 "2018-19","SWAC",22,13,0.629,17,1,0.944,-7.29,-9.17,75.1,72.8,NA,NA,NA,"Lost NCAA Tournament First Four","16","Byron Smith (22-13)","Prairie View Panthers Men's Basketball",2019,"Lost NCAA Tournament First Round",64
 "1997-98","SWAC",13,17,0.433,6,10,0.375,-17.11,-6.19,72.5,80.1,NA,NA,NA,"Lost NCAA Tournament First Round","16","Elwood Plummer (13-17)","Prairie View Panthers Men's Basketball",1998,"Lost NCAA Tournament First Round",64
+"2022-23","Ivy",23,9,0.719,10,4,0.714,4.76,-0.97,75.5,68.5,NA,NA,NA,"Lost NCAA Tournament Regional Semifinal","15","Mitch Henderson (23-9)","Princeton Tigers Men's Basketball",2023,"Lost NCAA Tournament Regional Semifinal",16
 "2016-17","Ivy",23,7,0.767,14,0,1,6.57,-1.84,71.6,61.4,NA,NA,NA,"Lost NCAA Tournament First Round","12","Mitch Henderson (23-7)","Princeton Tigers Men's Basketball",2017,"Lost NCAA Tournament First Round",64
 "2010-11","Ivy",25,7,0.781,13,2,0.867,3.71,-1.61,69.2,63,NA,NA,NA,"Lost NCAA Tournament Second Round","13","Sydney Johnson (25-7)","Princeton Tigers Men's Basketball",2011,"Lost NCAA Tournament Second Round",64
 "2003-04","Ivy",20,8,0.714,13,1,0.929,1.54,-3.31,62.9,56.8,NA,NA,NA,"Lost NCAA Tournament First Round","14","John Thompson (20-8)","Princeton Tigers Men's Basketball",2004,"Lost NCAA Tournament First Round",64
@@ -1588,6 +1635,7 @@
 "1990-91","Ivy",24,3,0.889,14,0,1,8.39,-4.19,62.4,48.9,NA,18,18,"Lost NCAA Tournament First Round","8","Pete Carril (24-3)","Princeton Tigers Men's Basketball",1991,"Lost NCAA Tournament First Round",64
 "1989-90","Ivy",20,7,0.741,11,3,0.786,4.91,-5.41,62.6,51,NA,NA,NA,"Lost NCAA Tournament First Round","13","Pete Carril (20-7)","Princeton Tigers Men's Basketball",1990,"Lost NCAA Tournament First Round",64
 "1988-89","Ivy",19,8,0.704,11,3,0.786,-2.17,-7.13,58.3,53,NA,NA,NA,"Lost NCAA Tournament First Round","16","Pete Carril (19-8)","Princeton Tigers Men's Basketball",1989,"Lost NCAA Tournament First Round",64
+"2022-23","Big East",21,12,0.636,13,7,0.65,12.89,6.56,77.3,71,NA,17,NA,"Lost NCAA Tournament First Round","11",NA,"Providence Friars Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2021-22","Big East",27,6,0.818,14,3,0.824,13.08,7.75,71.5,66.2,NA,8,13,"Lost NCAA Tournament Regional Semifinal","4","Ed Cooley (27-6)","Providence Friars Men's Basketball",2022,"Lost NCAA Tournament Regional Semifinal",16
 "2017-18","Big East",21,14,0.6,10,8,0.556,11.12,10.23,73.6,72.7,NA,NA,NA,"Lost NCAA Tournament First Round","10","Ed Cooley (21-14)","Providence Friars Men's Basketball",2018,"Lost NCAA Tournament First Round",64
 "2016-17","Big East",20,13,0.606,10,8,0.556,11.24,7.84,70.3,66.9,NA,NA,NA,"Lost NCAA Tournament First Four","11","Ed Cooley (20-13)","Providence Friars Men's Basketball",2017,"Lost NCAA Tournament First Round",64
@@ -1601,6 +1649,7 @@
 "1989-90","Big East",17,12,0.586,8,8,0.5,13.6,7.05,83.9,77.3,NA,NA,NA,"Lost NCAA Tournament First Round","9","Rick Barnes (17-12)","Providence Friars Men's Basketball",1990,"Lost NCAA Tournament First Round",64
 "1988-89","Big East",18,11,0.621,7,9,0.438,16.27,5.82,85.3,74.8,NA,20,NA,"Lost NCAA Tournament First Round","12","Rick Barnes (18-11)","Providence Friars Men's Basketball",1989,"Lost NCAA Tournament First Round",64
 "1986-87","Big East",25,9,0.735,10,6,0.625,15.11,5.47,86.6,77.1,NA,17,NA,"Lost NCAA Tournament National Semifinal","6","Rick Pitino (25-9)","Providence Friars Men's Basketball",1987,"Lost NCAA Tournament National Semifinal",4
+"2022-23","Big Ten",29,6,0.829,15,5,0.75,18.23,8.32,72.7,62.7,NA,1,3,"Lost NCAA Tournament First Round","1","Matt Painter (29-6)","Purdue Boilermakers Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2021-22","Big Ten",29,8,0.784,14,6,0.7,19.15,8.23,79.4,68.4,7,1,10,"Lost NCAA Tournament Regional Semifinal","3","Matt Painter (29-8)","Purdue Boilermakers Men's Basketball",2022,"Lost NCAA Tournament Regional Semifinal",16
 "2020-21","Big Ten",18,10,0.643,13,6,0.684,15.55,11.23,71,66.7,NA,20,20,"Lost NCAA Tournament First Round","4","Matt Painter (18-10)","Purdue Boilermakers Men's Basketball",2021,"Lost NCAA Tournament First Round",64
 "2018-19","Big Ten",26,10,0.722,16,4,0.8,21.4,11.99,76.7,67.3,24,11,13,"Lost NCAA Tournament Regional Final","3","Matt Painter (26-10)","Purdue Boilermakers Men's Basketball",2019,"Lost NCAA Tournament Regional Final",8
@@ -1676,6 +1725,7 @@
 "1997-98","CUSA",22,11,0.667,11,5,0.688,9.47,5.5,67.3,63.3,NA,NA,NA,"Lost NCAA Tournament Second Round","10","Charles Spoonhour (22-11)","Saint Louis Billikens Men's Basketball",1998,"Lost NCAA Tournament Second Round",32
 "1994-95","GMWC",23,8,0.742,8,4,0.667,17.3,4.08,75.8,62.6,NA,NA,NA,"Lost NCAA Tournament Second Round","9","Charles Spoonhour (23-8)","Saint Louis Billikens Men's Basketball",1995,"Lost NCAA Tournament Second Round",32
 "1993-94","GMWC",23,6,0.793,8,4,0.667,12.75,3.14,80.6,70.2,NA,16,24,"Lost NCAA Tournament First Round","7","Charles Spoonhour (23-6)","Saint Louis Billikens Men's Basketball",1994,"Lost NCAA Tournament First Round",64
+"2022-23","WCC",27,8,0.771,14,2,0.875,17.41,7.17,70.7,60.1,NA,15,19,"Lost NCAA Tournament Second Round","5","Randy Bennett (27-8)","Saint Mary's (CA) Gaels Men's Basketball",2023,"Lost NCAA Tournament Second Round",32
 "2021-22","WCC",26,8,0.765,12,3,0.8,14.82,6.58,69.7,60.6,NA,17,18,"Lost NCAA Tournament Second Round","5","Randy Bennett (26-8)","Saint Mary's (CA) Gaels Men's Basketball",2022,"Lost NCAA Tournament Second Round",32
 "2018-19","WCC",22,12,0.647,11,5,0.688,12.58,4.4,72.4,64.3,NA,NA,NA,"Lost NCAA Tournament First Round","11","Randy Bennett (22-12)","Saint Mary's (CA) Gaels Men's Basketball",2019,"Lost NCAA Tournament First Round",64
 "2016-17","WCC",29,5,0.853,16,2,0.889,16.75,2.19,72,57.5,17,12,22,"Lost NCAA Tournament Second Round","7","Randy Bennett (29-5)","Saint Mary's (CA) Gaels Men's Basketball",2017,"Lost NCAA Tournament Second Round",32
@@ -1694,6 +1744,7 @@
 "2002-03","Southland",23,7,0.767,17,3,0.85,-1.65,-6.86,72.8,65,NA,NA,NA,"Lost NCAA Tournament First Round","15","Bob Marlin (23-7)","Sam Houston State Bearkats Men's Basketball",2003,"Lost NCAA Tournament First Round",64
 "1999-00","TAAC",21,11,0.656,12,6,0.667,3.2,-5.8,72.6,62.4,NA,NA,NA,"Lost NCAA Tournament First Round","13","Jimmy Tillette (21-11)","Samford Bulldogs Men's Basketball",2000,"Lost NCAA Tournament First Round",64
 "1998-99","TAAC",24,6,0.8,15,1,0.938,0.26,-9.07,72.9,62.7,NA,NA,NA,"Lost NCAA Tournament First Round","14","Jimmy Tillette (24-6)","Samford Bulldogs Men's Basketball",1999,"Lost NCAA Tournament First Round",64
+"2022-23","MWC",32,7,0.821,15,3,0.833,15.81,8.91,71.2,63.5,19,17,18,"Lost NCAA Tournament National Final","5","Brian Dutcher (32-7)","San Diego State Aztecs Men's Basketball",2023,"Lost NCAA Tournament National Final",2
 "2021-22","MWC",23,9,0.719,13,4,0.765,13.13,5.85,65.4,58.1,NA,NA,NA,"Lost NCAA Tournament First Round","8","Brian Dutcher (23-9)","San Diego State Aztecs Men's Basketball",2022,"Lost NCAA Tournament First Round",64
 "2020-21","MWC",23,5,0.821,14,3,0.824,14.36,2.99,73.6,61.2,NA,16,16,"Lost NCAA Tournament First Round","6","Brian Dutcher (23-5)","San Diego State Aztecs Men's Basketball",2021,"Lost NCAA Tournament First Round",64
 "2017-18","MWC",22,11,0.667,11,7,0.611,12.23,3.91,77.1,67.9,NA,NA,NA,"Lost NCAA Tournament First Round","11","Brian Dutcher (22-11)","San Diego State Aztecs Men's Basketball",2018,"Lost NCAA Tournament First Round",64
@@ -1761,8 +1812,10 @@
 "2011-12","Big East",22,14,0.611,12,6,0.667,9.2,7.29,59.3,56.6,NA,NA,NA,"Lost NCAA Tournament Third Round","12","Stan Heath (22-14)","South Florida Bulls Men's Basketball",2012,"Lost NCAA Tournament Third Round",32
 "1991-92","Metro",19,10,0.655,7,5,0.583,6.57,3.4,76.4,73.6,NA,NA,NA,"Lost NCAA Tournament First Round","11","Bobby Paschal (19-10)","South Florida Bulls Men's Basketball",1992,"Lost NCAA Tournament First Round",64
 "1989-90","Sun Belt",20,11,0.645,9,5,0.643,1.57,-1.69,78.5,75.2,NA,NA,NA,"Lost NCAA Tournament First Round","15","Bobby Paschal (20-11)","South Florida Bulls Men's Basketball",1990,"Lost NCAA Tournament First Round",64
+"2022-23","OVC",19,17,0.528,10,8,0.556,-7.4,-6.81,77.5,75.9,NA,NA,NA,"Lost NCAA Tournament First Four","16","Brad Korn (19-17)","Southeast Missouri State Redhawks Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "1999-00","OVC",24,7,0.774,14,4,0.778,4.41,-2.48,69.5,61.6,NA,NA,NA,"Lost NCAA Tournament First Round","13","Gary Garner (24-7)","Southeast Missouri State Redhawks Men's Basketball",2000,"Lost NCAA Tournament First Round",64
 "2004-05","Southland",24,9,0.727,13,3,0.813,-0.87,-5.23,63.2,55.8,NA,NA,NA,"Lost NCAA Tournament First Round","15","Billy Kennedy (24-9)","Southeastern Louisiana Lions Men's Basketball",2005,"Lost NCAA Tournament First Round",64
+"2022-23","Pac-12",22,11,0.667,14,6,0.7,13.06,8,72.5,67.4,NA,NA,NA,"Lost NCAA Tournament First Round","10","Andy Enfield (22-11)","Southern California Trojans Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2021-22","Pac-12",26,8,0.765,14,6,0.7,12.5,6.09,72.4,66,NA,5,22,"Lost NCAA Tournament First Round","7","Andy Enfield (26-8)","Southern California Trojans Men's Basketball",2022,"Lost NCAA Tournament First Round",64
 "2020-21","Pac-12",25,8,0.758,15,5,0.75,20.5,10.65,74.9,65.1,NA,17,24,"Lost NCAA Tournament Regional Final","6","Andy Enfield (25-8)","Southern California Trojans Men's Basketball",2021,"Lost NCAA Tournament Regional Final",8
 "2016-17","Pac-12",26,10,0.722,10,8,0.556,11.48,6.4,78.2,73.1,NA,22,NA,"Lost NCAA Tournament Second Round","11","Andy Enfield (26-10)","Southern California Trojans Men's Basketball",2017,"Lost NCAA Tournament Second Round",32
@@ -1863,6 +1916,7 @@
 "1986-87","Big East",31,7,0.816,12,4,0.75,17.98,8.23,82.8,72.8,15,5,10,"Lost NCAA Tournament National Final","2","Jim Boeheim (31-7)","Syracuse Orange Men's Basketball",1987,"Lost NCAA Tournament National Final",2
 "1985-86","Big East",26,6,0.813,14,2,0.875,21.74,6.65,83.6,68.3,4,4,9,"Lost NCAA Tournament Second Round","2","Jim Boeheim (26-6)","Syracuse Orange Men's Basketball",1986,"Lost NCAA Tournament Second Round",32
 "1984-85","Big East",22,9,0.71,9,7,0.563,12.17,7.05,73,67.9,12,5,15,"Lost NCAA Tournament Second Round","7","Jim Boeheim (22-9)","Syracuse Orange Men's Basketball",1985,"Lost NCAA Tournament Second Round",32
+"2022-23","Big 12",22,13,0.629,9,9,0.5,15.6,8.77,75.3,68.4,14,11,22,"Lost NCAA Tournament Second Round","6","Jamie Dixon (22-13)","TCU Horned Frogs Men's Basketball",2023,"Lost NCAA Tournament Second Round",32
 "2021-22","Big 12",21,13,0.618,8,10,0.444,13.72,10.16,68.5,64.9,NA,NA,NA,"Lost NCAA Tournament Second Round","9","Jamie Dixon (21-13)","TCU Horned Frogs Men's Basketball",2022,"Lost NCAA Tournament Second Round",32
 "2017-18","Big 12",21,12,0.636,9,9,0.5,16.38,9.68,82.1,75.4,NA,10,NA,"Lost NCAA Tournament First Round","6","Jamie Dixon (21-12)","TCU Horned Frogs Men's Basketball",2018,"Lost NCAA Tournament First Round",64
 "1997-98","WAC",27,6,0.818,14,0,1,22.29,2.7,97.2,77.9,NA,13,15,"Lost NCAA Tournament First Round","5","Billy Tubbs (27-6)","TCU Horned Frogs Men's Basketball",1998,"Lost NCAA Tournament First Round",64
@@ -1893,6 +1947,7 @@
 "1984-85","A-10",25,6,0.806,15,3,0.833,7.67,0.67,62.9,56,NA,NA,NA,"Lost NCAA Tournament Second Round","8","John Chaney (25-6)","Temple Owls Men's Basketball",1985,"Lost NCAA Tournament Second Round",32
 "1993-94","OVC",19,12,0.613,12,4,0.75,0.05,-2.74,80.3,74.2,NA,NA,NA,"Lost NCAA Tournament First Round","14","Frankie Allen (19-12)","Tennessee State Tigers Men's Basketball",1994,"Lost NCAA Tournament First Round",64
 "1992-93","OVC",19,10,0.655,13,3,0.813,-1.13,-4.56,78.7,76.1,NA,NA,NA,"Lost NCAA Tournament First Round","15","Frankie Allen (19-10)","Tennessee State Tigers Men's Basketball",1993,"Lost NCAA Tournament First Round",64
+"2022-23","SEC",25,11,0.694,11,7,0.611,20.83,7.97,70.8,57.9,11,2,20,"Lost NCAA Tournament Regional Semifinal","4","Rick Barnes (25-11)","Tennessee Volunteers Men's Basketball",2023,"Lost NCAA Tournament Regional Semifinal",16
 "2021-22","SEC",27,8,0.771,14,4,0.778,20.46,9.94,73.5,62.9,18,5,5,"Lost NCAA Tournament Second Round","3","Rick Barnes (27-8)","Tennessee Volunteers Men's Basketball",2022,"Lost NCAA Tournament Second Round",32
 "2020-21","SEC",18,9,0.667,10,7,0.588,16.87,8.46,71.9,63.5,12,6,NA,"Lost NCAA Tournament First Round","5","Rick Barnes (18-9)","Tennessee Volunteers Men's Basketball",2021,"Lost NCAA Tournament First Round",64
 "2018-19","SEC",31,6,0.838,15,3,0.833,21.55,10.16,82,69.7,6,1,6,"Lost NCAA Tournament Regional Semifinal","2","Rick Barnes (31-6)","Tennessee Volunteers Men's Basketball",2019,"Lost NCAA Tournament Regional Semifinal",16
@@ -1909,6 +1964,7 @@
 "1998-99","SEC",21,9,0.7,12,4,0.75,14.18,6.55,72.6,65,9,9,20,"Lost NCAA Tournament Second Round","4","Jerry Green (21-9)","Tennessee Volunteers Men's Basketball",1999,"Lost NCAA Tournament Second Round",32
 "1997-98","SEC",20,9,0.69,9,7,0.563,11.15,5.91,75.9,70.6,NA,NA,NA,"Lost NCAA Tournament First Round","8","Jerry Green (20-9)","Tennessee Volunteers Men's Basketball",1998,"Lost NCAA Tournament First Round",64
 "1988-89","SEC",19,11,0.633,11,7,0.611,9.21,5.41,84,80.2,NA,16,NA,"Lost NCAA Tournament First Round","10","Don DeVoe (19-11)","Tennessee Volunteers Men's Basketball",1989,"Lost NCAA Tournament First Round",64
+"2022-23","SEC",25,10,0.714,15,3,0.833,13.75,7.41,72.8,66.5,NA,17,17,"Lost NCAA Tournament First Round","7","Buzz Williams (25-10)","Texas A&M Aggies Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2017-18","SEC",22,13,0.629,9,9,0.5,15.3,10.62,75.2,70.5,25,5,NA,"Lost NCAA Tournament Regional Semifinal","7","Billy Kennedy (22-13)","Texas A&M Aggies Men's Basketball",2018,"Lost NCAA Tournament Regional Semifinal",16
 "2015-16","SEC",28,9,0.757,13,5,0.722,18.45,8.45,76.4,66.4,NA,5,15,"Lost NCAA Tournament Regional Semifinal","3","Billy Kennedy (28-9)","Texas A&M Aggies Men's Basketball",2016,"Lost NCAA Tournament Regional Semifinal",16
 "2010-11","Big 12",24,9,0.727,10,6,0.625,12.62,5.94,68.3,60.9,NA,11,24,"Lost NCAA Tournament Second Round","7","Mark Turgeon (24-9)","Texas A&M Aggies Men's Basketball",2011,"Lost NCAA Tournament Second Round",64
@@ -1918,8 +1974,10 @@
 "2006-07","Big 12",27,7,0.794,13,3,0.813,21.27,5.13,75.6,59.4,13,6,9,"Lost NCAA Tournament Regional Semifinal","3","Billy Gillispie (27-7)","Texas A&M Aggies Men's Basketball",2007,"Lost NCAA Tournament Regional Semifinal",16
 "2005-06","Big 12",22,9,0.71,10,6,0.625,13.19,4.77,68.7,60.3,NA,NA,NA,"Lost NCAA Tournament Second Round","12","Billy Gillispie (22-9)","Texas A&M Aggies Men's Basketball",2006,"Lost NCAA Tournament Second Round",32
 "1986-87","SWC",17,14,0.548,6,10,0.375,5.35,3.35,67,65,NA,NA,NA,"Lost NCAA Tournament First Round","12","Shelby Metcalf (17-14)","Texas A&M Aggies Men's Basketball",1987,"Lost NCAA Tournament First Round",64
+"2022-23","Southland",24,11,0.686,14,4,0.778,-2.58,-7.03,80.1,73.2,NA,NA,NA,"Lost NCAA Tournament First Round","16","Jim Shaw (0-0), Steve Lutz (24-11)","Texas A&M-Corpus Christi Islanders Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2021-22","Southland",23,12,0.657,7,7,0.5,-6.78,-9.1,76.6,70.1,NA,NA,NA,"Lost NCAA Tournament First Four","16","Steve Lutz (23-12)","Texas A&M-Corpus Christi Islanders Men's Basketball",2022,"Lost NCAA Tournament First Round",64
 "2006-07","Southland",26,7,0.788,14,2,0.875,3.07,-4.8,79.2,69.8,NA,NA,NA,"Lost NCAA Tournament First Round","15","Ronnie Arrow (26-7)","Texas A&M-Corpus Christi Islanders Men's Basketball",2007,"Lost NCAA Tournament First Round",64
+"2022-23","Big 12",29,9,0.763,12,6,0.667,20.55,10.42,78,67.8,12,2,5,"Lost NCAA Tournament Regional Final","2","Rodney Terry (22-8)","Texas Longhorns Men's Basketball",2023,"Lost NCAA Tournament Regional Final",8
 "2021-22","Big 12",22,12,0.647,10,8,0.556,17.01,8.87,68.8,60.6,5,5,25,"Lost NCAA Tournament Second Round","6","Chris Beard (22-12)","Texas Longhorns Men's Basketball",2022,"Lost NCAA Tournament Second Round",32
 "2020-21","Big 12",19,8,0.704,11,6,0.647,15.51,9.36,74.4,68.2,19,4,9,"Lost NCAA Tournament First Round","3","Shaka Smart (19-8)","Texas Longhorns Men's Basketball",2021,"Lost NCAA Tournament First Round",64
 "2017-18","Big 12",19,15,0.559,8,10,0.444,13.96,10.67,72.1,68.8,NA,NA,NA,"Lost NCAA Tournament First Round","10","Shaka Smart (19-15)","Texas Longhorns Men's Basketball",2018,"Lost NCAA Tournament First Round",64
@@ -1948,6 +2006,7 @@
 "1990-91","SWC",23,9,0.719,13,3,0.813,14.82,7.78,86.8,79.8,22,22,23,"Lost NCAA Tournament Second Round","5","Tommy Penders (23-9)","Texas Longhorns Men's Basketball",1991,"Lost NCAA Tournament Second Round",32
 "1989-90","SWC",24,9,0.727,12,4,0.75,13.91,5.36,93.7,85.1,NA,NA,NA,"Lost NCAA Tournament Regional Final","10","Tommy Penders (24-9)","Texas Longhorns Men's Basketball",1990,"Lost NCAA Tournament Regional Final",8
 "1988-89","SWC",25,9,0.735,12,4,0.75,9.69,3.4,94.3,87.7,NA,NA,NA,"Lost NCAA Tournament Second Round","11","Tommy Penders (25-9)","Texas Longhorns Men's Basketball",1989,"Lost NCAA Tournament Second Round",32
+"2022-23","SWAC",14,21,0.4,7,11,0.389,-10.58,-5.06,69.2,71.9,NA,NA,NA,"Lost NCAA Tournament First Four","16","Johnny Jones (14-21)","Texas Southern Tigers Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2021-22","SWAC",19,13,0.594,13,5,0.722,-3.3,-6.24,69,66.1,NA,NA,NA,"Lost NCAA Tournament First Round","16","Johnny Jones (19-13)","Texas Southern Tigers Men's Basketball",2022,"Lost NCAA Tournament First Round",64
 "2020-21","SWAC",17,9,0.654,10,3,0.769,-6.15,-9.03,73.9,69.5,NA,NA,NA,"Lost NCAA Tournament First Round","16","Johnny Jones (17-9)","Texas Southern Tigers Men's Basketball",2021,"Lost NCAA Tournament First Round",64
 "2017-18","SWAC",16,20,0.444,12,6,0.667,-7.53,-5.53,77.4,79.4,NA,NA,NA,"Lost NCAA Tournament First Round","16","Mike Davis (16-20)","Texas Southern Tigers Men's Basketball",2018,"Lost NCAA Tournament First Round",64
@@ -2006,12 +2065,14 @@
 "2016-17","Big West",23,13,0.639,11,5,0.688,-5.21,-4.68,70.1,69.6,NA,NA,NA,"Lost NCAA Tournament First Round","16","Jim Les (23-13)","UC Davis Aggies Men's Basketball",2017,"Lost NCAA Tournament First Round",64
 "2018-19","Big West",31,6,0.838,15,1,0.938,5.7,-2.3,72.3,63.6,NA,NA,NA,"Lost NCAA Tournament Second Round","13","Russ Turner (31-6)","UC Irvine Anteaters Men's Basketball",2019,"Lost NCAA Tournament Second Round",32
 "2014-15","Big West",21,13,0.618,11,5,0.688,3.63,0.45,67.5,62.1,NA,NA,NA,"Lost NCAA Tournament Second Round","13","Russ Turner (21-13)","UC Irvine Anteaters Men's Basketball",2015,"Lost NCAA Tournament Second Round",64
+"2022-23","Big West",27,8,0.771,15,5,0.75,3.3,-2.03,71.7,65.9,NA,NA,NA,"Lost NCAA Tournament First Round","14","Joe Pasternack (27-8)","UC Santa Barbara Gauchos Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2020-21","Big West",22,5,0.815,15,3,0.833,7.8,-2.08,76,62.8,NA,NA,NA,"Lost NCAA Tournament First Round","12","Joe Pasternack (22-5)","UC Santa Barbara Gauchos Men's Basketball",2021,"Lost NCAA Tournament First Round",64
 "2010-11","Big West",18,14,0.563,8,8,0.5,1.22,0.12,67.8,65.8,NA,NA,NA,"Lost NCAA Tournament Second Round","15","Bob Williams (18-14)","UC Santa Barbara Gauchos Men's Basketball",2011,"Lost NCAA Tournament Second Round",64
 "2009-10","Big West",20,10,0.667,12,4,0.75,-0.13,-1.09,67.6,65.7,NA,NA,NA,"Lost NCAA Tournament First Round","15","Bob Williams (20-10)","UC Santa Barbara Gauchos Men's Basketball",2010,"Lost NCAA Tournament First Round",64
 "2001-02","Big West",20,11,0.645,11,7,0.611,5.55,-0.05,66.6,60.9,NA,NA,NA,"Lost NCAA Tournament First Round","14","Bob Williams (20-11)","UC Santa Barbara Gauchos Men's Basketball",2002,"Lost NCAA Tournament First Round",64
 "1989-90","Big West",21,9,0.7,13,5,0.722,13.01,4.98,75.6,67.5,NA,NA,NA,"Lost NCAA Tournament Second Round","9","Jerry Pimm (21-9)","UC Santa Barbara Gauchos Men's Basketball",1990,"Lost NCAA Tournament Second Round",32
 "1987-88","PCAA",22,8,0.733,13,5,0.722,9.84,6.11,71.7,67.9,NA,NA,NA,"Lost NCAA Tournament First Round","10","Jerry Pimm (22-8)","UC Santa Barbara Gauchos Men's Basketball",1988,"Lost NCAA Tournament First Round",64
+"2022-23","Pac-12",31,6,0.838,18,2,0.9,22.11,8.65,74.1,60.7,8,2,7,"Lost NCAA Tournament Regional Semifinal","2","Mick Cronin (31-6)","UCLA Bruins Men's Basketball",2023,"Lost NCAA Tournament Regional Semifinal",16
 "2021-22","Pac-12",27,8,0.771,15,5,0.75,19.3,8.36,75.4,64.5,2,2,11,"Lost NCAA Tournament Regional Semifinal","4","Mick Cronin (27-8)","UCLA Bruins Men's Basketball",2022,"Lost NCAA Tournament Regional Semifinal",16
 "2020-21","Pac-12",22,10,0.688,13,6,0.684,16.3,11.34,73.4,68.4,22,21,NA,"Lost NCAA Tournament National Semifinal","11","Mick Cronin (22-10)","UCLA Bruins Men's Basketball",2021,"Lost NCAA Tournament National Semifinal",4
 "2017-18","Pac-12",21,12,0.636,11,7,0.611,12.07,6.86,81.2,76,21,21,NA,"Lost NCAA Tournament First Four","11","Steve Alford (21-12)","UCLA Bruins Men's Basketball",2018,"Lost NCAA Tournament First Round",64
@@ -2038,6 +2099,7 @@
 "1989-90","Pac-10",22,11,0.667,11,7,0.611,13.3,8.75,80.5,75.6,13,13,NA,"Lost NCAA Tournament Regional Semifinal","7","Jim Harrick (22-11)","UCLA Bruins Men's Basketball",1990,"Lost NCAA Tournament Regional Semifinal",16
 "1988-89","Pac-10",21,10,0.677,13,5,0.722,13.9,9.51,81.2,77,NA,20,NA,"Lost NCAA Tournament Second Round","7","Jim Harrick (21-10)","UCLA Bruins Men's Basketball",1989,"Lost NCAA Tournament Second Round",32
 "1986-87","Pac-10",25,7,0.781,14,4,0.778,13.05,6.87,77.9,71.7,NA,11,15,"Lost NCAA Tournament Second Round","4","Walt Hazzard (25-7)","UCLA Bruins Men's Basketball",1987,"Lost NCAA Tournament Second Round",32
+"2022-23","Big South",27,8,0.771,16,2,0.889,-1.74,-4.35,74.4,69.1,NA,NA,NA,"Lost NCAA Tournament First Round","15","Mike Morrell (27-8)","UNC Asheville Bulldogs Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2015-16","Big South",22,12,0.647,12,6,0.667,1.1,-3.25,75.1,68,NA,NA,NA,"Lost NCAA Tournament First Round","15","Nick McDevitt (22-12)","UNC Asheville Bulldogs Men's Basketball",2016,"Lost NCAA Tournament First Round",64
 "2011-12","Big South",24,10,0.706,16,2,0.889,3.06,-2.72,80.7,71.4,NA,NA,NA,"Lost NCAA Tournament Second Round","16","Eddie Biedenbach (24-10)","UNC Asheville Bulldogs Men's Basketball",2012,"Lost NCAA Tournament Second Round",64
 "2010-11","Big South",20,14,0.588,11,7,0.611,-0.69,-2.89,73.7,68.6,NA,NA,NA,"Lost NCAA Tournament Second Round","16","Eddie Biedenbach (20-14)","UNC Asheville Bulldogs Men's Basketball",2011,"Lost NCAA Tournament Second Round",64
@@ -2053,6 +2115,7 @@
 "2001-02","CAA",23,10,0.697,14,4,0.778,6.17,-0.08,67.9,61.6,NA,NA,NA,"Lost NCAA Tournament Second Round","13","Jerry Wainwright (23-10)","UNC Wilmington Seahawks Men's Basketball",2002,"Lost NCAA Tournament Second Round",32
 "1999-00","CAA",18,13,0.581,8,8,0.5,2.41,-0.24,60.1,57.5,NA,NA,NA,"Lost NCAA Tournament First Round","15","Jerry Wainwright (18-13)","UNC Wilmington Seahawks Men's Basketball",2000,"Lost NCAA Tournament First Round",64
 "2007-08","Southland",21,12,0.636,7,9,0.438,-2.87,-4.62,73.4,68.9,NA,NA,NA,"Lost NCAA Tournament First Round","16","Scott Cross (21-12)","UT Arlington Mavericks Men's Basketball",2008,"Lost NCAA Tournament First Round",64
+"2022-23","MWC",26,9,0.743,13,5,0.722,14.22,6.81,78.2,69.9,NA,NA,NA,"Lost NCAA Tournament First Round","10","Ryan Odom (26-9)","Utah State Aggies Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2020-21","MWC",20,9,0.69,13,4,0.765,10.99,1.32,72.6,62.3,NA,NA,NA,"Lost NCAA Tournament First Round","11","Craig Smith (20-9)","Utah State Aggies Men's Basketball",2021,"Lost NCAA Tournament First Round",64
 "2018-19","MWC",28,7,0.8,15,3,0.833,11.98,0.89,78.7,67.1,NA,25,25,"Lost NCAA Tournament First Round","8","Craig Smith (28-7)","Utah State Aggies Men's Basketball",2019,"Lost NCAA Tournament First Round",64
 "2010-11","WAC",30,4,0.882,15,1,0.938,13.23,0.5,72,58.7,NA,19,19,"Lost NCAA Tournament Second Round","12","Stew Morrill (30-4)","Utah State Aggies Men's Basketball",2011,"Lost NCAA Tournament Second Round",64
@@ -2116,6 +2179,7 @@
 "1990-91","SEC",17,13,0.567,11,7,0.611,12.56,9.76,73.3,70.5,NA,NA,NA,"Lost NCAA Tournament First Round","9","Eddie Fogler (17-13)","Vanderbilt Commodores Men's Basketball",1991,"Lost NCAA Tournament First Round",64
 "1988-89","SEC",19,14,0.576,12,6,0.667,11.82,7.66,77.2,72.3,NA,NA,NA,"Lost NCAA Tournament First Round","8","C.M. Newton (19-14)","Vanderbilt Commodores Men's Basketball",1989,"Lost NCAA Tournament First Round",64
 "1987-88","SEC",20,11,0.645,10,8,0.556,13.88,7.94,78.7,72.8,NA,15,NA,"Lost NCAA Tournament Regional Semifinal","7","C.M. Newton (20-11)","Vanderbilt Commodores Men's Basketball",1988,"Lost NCAA Tournament Regional Semifinal",16
+"2022-23","AEC",23,11,0.676,14,2,0.875,1.65,-3.11,72.7,66.9,NA,NA,NA,"Lost NCAA Tournament First Round","15","John Becker (23-11)","Vermont Catamounts Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2021-22","AEC",28,6,0.824,17,1,0.944,7.81,-5.7,74.8,60.7,NA,NA,NA,"Lost NCAA Tournament First Round","13","John Becker (28-6)","Vermont Catamounts Men's Basketball",2022,"Lost NCAA Tournament First Round",64
 "2018-19","AEC",27,7,0.794,14,2,0.875,4.88,-4.18,73.8,63,NA,NA,NA,"Lost NCAA Tournament First Round","13","John Becker (27-7)","Vermont Catamounts Men's Basketball",2019,"Lost NCAA Tournament First Round",64
 "2016-17","AEC",29,6,0.829,16,0,1,6.67,-3.27,73.5,62.1,NA,NA,NA,"Lost NCAA Tournament First Round","13","John Becker (29-6)","Vermont Catamounts Men's Basketball",2017,"Lost NCAA Tournament First Round",64
@@ -2149,6 +2213,7 @@
 "1987-88","Big East",24,13,0.649,9,7,0.563,13.92,10.54,71.9,68.6,NA,19,NA,"Lost NCAA Tournament Regional Final","6","Rollie Massimino (24-13)","Villanova Wildcats Men's Basketball",1988,"Lost NCAA Tournament Regional Final",8
 "1985-86","Big East",23,14,0.622,10,6,0.625,9.34,6.26,69.8,66.2,NA,NA,NA,"Lost NCAA Tournament Second Round","10","Rollie Massimino (23-14)","Villanova Wildcats Men's Basketball",1986,"Lost NCAA Tournament Second Round",32
 "1984-85","Big East",25,10,0.714,9,7,0.563,12.03,7.29,68.7,63.9,NA,14,NA,"Won NCAA Tournament National Final","8","Rollie Massimino (25-10)","Villanova Wildcats Men's Basketball",1985,"Won NCAA Tournament National Final",1
+"2022-23","ACC",25,8,0.758,15,5,0.75,13.28,5.98,67.8,60.5,18,2,14,"Lost NCAA Tournament First Round","4","Tony Bennett (25-8)","Virginia Cavaliers Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2020-21","ACC",18,7,0.72,13,4,0.765,15.27,7.59,68.2,60.5,4,4,15,"Lost NCAA Tournament First Round","4","Tony Bennett (18-7)","Virginia Cavaliers Men's Basketball",2021,"Lost NCAA Tournament First Round",64
 "2018-19","ACC",35,3,0.921,16,2,0.889,25.46,10.15,71.4,56.1,5,2,2,"Won NCAA Tournament National Final","1","Tony Bennett (35-3)","Virginia Cavaliers Men's Basketball",2019,"Won NCAA Tournament National Final",1
 "2017-18","ACC",31,3,0.912,17,1,0.944,22.2,9.05,67.1,54,NA,1,1,"Lost NCAA Tournament First Round","1","Tony Bennett (31-3)","Virginia Cavaliers Men's Basketball",2018,"Lost NCAA Tournament First Round",64
@@ -2168,6 +2233,7 @@
 "1988-89","ACC",22,11,0.667,9,5,0.643,15.38,11.17,81.9,78,NA,NA,NA,"Lost NCAA Tournament Regional Final","5","Terry Holland (22-11)","Virginia Cavaliers Men's Basketball",1989,"Lost NCAA Tournament Regional Final",8
 "1986-87","ACC",21,10,0.677,8,6,0.571,13.61,7.77,74.2,68.4,NA,NA,NA,"Lost NCAA Tournament First Round","5","Terry Holland (21-10)","Virginia Cavaliers Men's Basketball",1987,"Lost NCAA Tournament First Round",64
 "1985-86","ACC",19,11,0.633,7,7,0.5,14.84,9.41,70.4,64.9,NA,NA,NA,"Lost NCAA Tournament First Round","5","Terry Holland (19-11)","Virginia Cavaliers Men's Basketball",1986,"Lost NCAA Tournament First Round",64
+"2022-23","A-10",27,8,0.771,15,3,0.833,9.9,1.95,70.9,62.9,NA,NA,NA,"Lost NCAA Tournament First Round","12",NA,"Virginia Commonwealth Rams Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2018-19","A-10",25,8,0.758,16,2,0.889,11.96,2.87,71,61.9,NA,NA,NA,"Lost NCAA Tournament First Round","8","Mike Rhoades (25-8)","Virginia Commonwealth Rams Men's Basketball",2019,"Lost NCAA Tournament First Round",64
 "2016-17","A-10",26,9,0.743,14,4,0.778,11.57,3.77,74.7,66.9,NA,NA,NA,"Lost NCAA Tournament First Round","10","Will Wade (26-9)","Virginia Commonwealth Rams Men's Basketball",2017,"Lost NCAA Tournament First Round",64
 "2015-16","A-10",25,11,0.694,14,4,0.778,13.83,4.35,77.3,67.8,NA,NA,NA,"Lost NCAA Tournament Second Round","10","Will Wade (25-11)","Virginia Commonwealth Rams Men's Basketball",2016,"Lost NCAA Tournament Second Round",32
@@ -2226,6 +2292,7 @@
 "2002-03","Big Sky",26,6,0.813,14,0,1,4.56,-2.01,74.5,67.6,NA,NA,NA,"Lost NCAA Tournament First Round","12","Joe Cravens (26-6)","Weber State Wildcats Men's Basketball",2003,"Lost NCAA Tournament First Round",64
 "1998-99","Big Sky",25,8,0.758,13,3,0.813,5.29,0.19,79.1,73,NA,NA,NA,"Lost NCAA Tournament Second Round","14","Ron Abegglen (25-8)","Weber State Wildcats Men's Basketball",1999,"Lost NCAA Tournament Second Round",32
 "1994-95","Big Sky",21,9,0.7,11,3,0.786,8.35,3.42,77.3,70.5,NA,NA,NA,"Lost NCAA Tournament Second Round","14","Ron Abegglen (21-9)","Weber State Wildcats Men's Basketball",1995,"Lost NCAA Tournament Second Round",32
+"2022-23","Big 12",19,15,0.559,7,11,0.389,15.94,10.88,76,70.9,NA,24,NA,"Lost NCAA Tournament First Round","9","Bob Huggins (19-15)","West Virginia Mountaineers Men's Basketball",2023,"Lost NCAA Tournament First Round",64
 "2020-21","Big 12",19,10,0.655,11,6,0.647,15.36,10.05,77.3,72,15,6,13,"Lost NCAA Tournament Second Round","3","Bob Huggins (19-10)","West Virginia Mountaineers Men's Basketball",2021,"Lost NCAA Tournament Second Round",32
 "2017-18","Big 12",26,11,0.703,11,7,0.611,19.89,9.38,80.1,69.6,11,2,15,"Lost NCAA Tournament Regional Semifinal","5","Bob Huggins (26-11)","West Virginia Mountaineers Men's Basketball",2018,"Lost NCAA Tournament Regional Semifinal",16
 "2016-17","Big 12",28,9,0.757,12,6,0.667,24.45,9.67,81.5,66.7,20,7,13,"Lost NCAA Tournament Regional Semifinal","4","Bob Huggins (28-9)","West Virginia Mountaineers Men's Basketball",2017,"Lost NCAA Tournament Regional Semifinal",16
@@ -2320,6 +2387,7 @@
 "2001-02","MWC",22,9,0.71,11,3,0.786,8.62,2.72,75,68.7,NA,NA,NA,"Lost NCAA Tournament Second Round","11","Steve McClain (22-9)","Wyoming Cowboys Men's Basketball",2002,"Lost NCAA Tournament Second Round",32
 "1987-88","WAC",26,6,0.813,11,5,0.688,14.67,3.7,78.3,66.7,10,5,13,"Lost NCAA Tournament First Round","7","Benny Dees (26-6)","Wyoming Cowboys Men's Basketball",1988,"Lost NCAA Tournament First Round",64
 "1986-87","WAC",24,10,0.706,11,5,0.688,7.9,3.02,71,65.7,NA,NA,NA,"Lost NCAA Tournament Regional Semifinal","12","Jim Brandenburg (24-10)","Wyoming Cowboys Men's Basketball",1987,"Lost NCAA Tournament Regional Semifinal",16
+"2022-23","Big East",27,10,0.73,15,5,0.75,16.03,9.16,80.9,74.1,NA,8,13,"Lost NCAA Tournament Regional Semifinal","3","Sean Miller (27-10)","Xavier Musketeers Men's Basketball",2023,"Lost NCAA Tournament Regional Semifinal",16
 "2017-18","Big East",29,6,0.829,15,3,0.833,19.06,9.43,84.4,74.7,17,3,3,"Lost NCAA Tournament Second Round","1","Chris Mack (29-6)","Xavier Musketeers Men's Basketball",2018,"Lost NCAA Tournament Second Round",32
 "2016-17","Big East",24,14,0.632,9,9,0.5,14.8,11.51,74.6,71.3,7,7,NA,"Lost NCAA Tournament Regional Final","11","Chris Mack (24-14)","Xavier Musketeers Men's Basketball",2017,"Lost NCAA Tournament Regional Final",8
 "2015-16","Big East",28,6,0.824,14,4,0.778,18.58,8.43,80.5,70.4,NA,5,9,"Lost NCAA Tournament Second Round","2","Chris Mack (28-6)","Xavier Musketeers Men's Basketball",2016,"Lost NCAA Tournament Second Round",32
