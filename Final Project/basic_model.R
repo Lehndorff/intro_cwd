@@ -4,7 +4,7 @@ library(pROC)
 library(MLmetrics)
 library(randomForest)
 
-tourney_data <- read_csv("tourney_data.csv") %>% 
+tourney_data <- read_csv("intro_cwd/Final Project/tourney_data.csv") %>% 
   mutate(rank=log2(rank)) %>% # converts 1,2,4,8,16, etc to 0,1,2,3,4
   select(-Season,-class,-`Coach(es)`,-`NCAA Tournament`) %>% #either not helpful, or duplicative
   filter(!is.na(Pts_for)) %>% #removes 1 case
@@ -19,6 +19,11 @@ tourney_data2<-tourney_data %>%
   mutate(rank=as.numeric(rank<=4))# <=4 = Did team make the sweet 16 (one of the final 2^4 teams)
 table(tourney_data2$rank)
 
+test2<-tourney_data2 %>% 
+  filter(tourn_year==2023)
+
+tourney_data2<-tourney_data2 %>% 
+  filter(tourn_year!=2023)
 # ctrl <- trainControl(method = "cv", number = 5)
 set.seed(504) 
 
@@ -40,6 +45,8 @@ fit_rf <- train(rank ~ .,
 
 plot(varImp(fit_rf),top=10)
 
+test3=test
+test=test2
 pred <- predict(fit_rf, newdata=test)
 
 data.frame(test=test$rank,pred=pred) %>% 
@@ -63,5 +70,12 @@ pred2<-as.numeric(pred>cutoff)
 
 confusionMatrix(factor(pred2),factor(test$rank))
 
+test$pred=pred2
 
-
+zzz<-tourney_data %>% 
+  filter(tourn_year==2023) %>% 
+  mutate(rank=as.numeric(rank<=4)) %>% 
+  # mutate(pred=pred) %>% 
+  mutate(pred=round(pred,3)) %>% 
+  arrange(pred==rank)
+table(zzz$pred==zzz$rank,zzz$rank)
