@@ -26,8 +26,8 @@ links<-links[grepl("/men/",links)]
 data_list <- list()
 
 # Loop through each link and extract the data from the corresponding page
-for (link in links[201:490]) {
-  Sys.sleep(runif(1)+3)
+for (link in links) {
+  Sys.sleep(runif(1)+2)
   
   # Construct the URL of the page
   print(link)
@@ -51,7 +51,7 @@ all_data <- bind_rows(data_list)
 all_data<-all_data %>% 
   rename(Ovr_W=W...4,Ovr_L=L...5,Ovr_Pct=`W-L%...6`,
          Conf_W=W...7,Conf_L=L...8,Conf_Pct=`W-L%...9`,
-         Pts_for=PTS...12,Pts_against=PTS...13) %>% 
+         Pts_for=`PS/G`,Pts_against=`PA/G`) %>% 
   mutate(across(Ovr_W:`AP Final`,as.numeric)) %>% 
   filter(!is.na(Ovr_W)) %>% 
   mutate(tourn_year=as.numeric(str_extract(Season,"^[0-9]{4}"))+1)
@@ -67,7 +67,7 @@ table(all_data$`NCAA Tournament`[all_data$tourn_year>=1985&all_data$tourn_year<2
 
 
 selected_data<-all_data %>% 
-  filter(!is.na(`NCAA Tournament`)&between(tourn_year,1985,2022)) %>% 
+  filter(!is.na(`NCAA Tournament`)&between(tourn_year,1985,2023)) %>% 
   filter(`NCAA Tournament`!="Playing NCAA Tournament First Round")
 
 clean_data<-selected_data %>% 
@@ -89,5 +89,5 @@ clean_data<-selected_data %>%
   select(-Rk)
 
 table(log2(clean_data$rank))
-write.csv(clean_data,file="Final Project/tourney_data.csv",row.names = F)
+write.csv(clean_data,file="intro_cwd/Final Project/tourney_data.csv",row.names = F)
       
