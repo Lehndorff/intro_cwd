@@ -4,7 +4,7 @@ library(pROC)
 library(MLmetrics)
 library(randomForest)
 
-tourney_data <- read_csv("intro_cwd/Final Project/tourney_data.csv") %>% 
+tourney_data <- read_csv("tourney_data.csv") %>% 
   mutate(rank=log2(rank)) %>% # converts 1,2,4,8,16, etc to 0,1,2,3,4
   select(-Season,-class,-`Coach(es)`,-`NCAA Tournament`) %>% #either not helpful, or duplicative
   filter(!is.na(Pts_for)) %>% #removes 1 case
@@ -56,17 +56,21 @@ data.frame(test=test$rank,pred=pred) %>%
   labs(x="Prediction",fill="Actual")
 
 #A function for determining the best threshold for cutoff (needed for regression not categorization)
-best_thresh<-function(x){
-  pred2<-as.numeric(pred>x)
-  output<-as.numeric(confusionMatrix(factor(pred2),factor(test$rank))$overall[2])
-  return(output)
-}
+# best_thresh<-function(x){
+#   pred2<-as.numeric(pred>x)
+#   output<-as.numeric(confusionMatrix(factor(pred2),factor(test$rank))$overall[2])
+#   return(output)
+# }
 
-cutoff<-data.frame(thresh=seq(0,1,.01)) %>% 
-  mutate(best=sapply(thresh,best_thresh)) %>% 
-  filter(best==max(best)) %>% 
-  pull(thresh)
-pred2<-as.numeric(pred>cutoff)
+# cutoff<-data.frame(thresh=seq(0,1,.01)) %>% 
+#   mutate(best=sapply(thresh,best_thresh)) %>% 
+#   filter(best==max(best)) %>% 
+#   pull(thresh)
+# pred2<-as.numeric(pred>cutoff[1])
+
+nth_val<-sort(pred,decreasing = T)[2^4] #For current year, should only predicted as many teams as is actually possible
+pred2<-as.numeric(pred>=nth_val)
+table(pred2)
 
 confusionMatrix(factor(pred2),factor(test$rank))
 
