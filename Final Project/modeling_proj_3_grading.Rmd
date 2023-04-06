@@ -1,0 +1,80 @@
+---
+title: "Project 3"
+author: "Hendrik Orem, Ph.D., with thanks to Jameson Watts"
+date: "03/16/2023"
+output:
+  pdf_document:
+    df_print: kable
+    fig_width: 11
+    fig_height: 8
+  html_document:
+    df_print: paged
+---
+
+
+
+
+
+## Setup
+```{r setup, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+library(tidyverse)
+library(tidytext)
+library(caret)
+library(fastDummies)
+library(randomForest)
+# https://www.openml.org/d/1590
+
+raw_income = read_csv("../resources/openml_1590.csv", na=c("?"))
+
+income = read_csv("../resources/openml_1590.csv", na=c("?")) %>%
+  drop_na() %>%
+  mutate(income_above_50k = class==">50K") %>%
+  select(-class) %>%
+  dummy_cols(remove_selected_columns = T)
+
+View(income)
+```
+
+## Some questions about the data
+
+Please try at least a few of the following:
+
+* Run PCA on the dataset. How many principal components do you need to explain half the variation? 
+* Can you give some interpretation of the principal components?
+* Look at the scree plot. How many PCs would you choose based on that?
+* Are the first few Principal Components good predictors of income_above_50k?
+* How well can you predict income_above_50k using the first 5 or 6 principal components? How about only the first 2?
+* Can you gain any insights into the data based on k-means clustering? 
+* Can you visualize and interpret some or all of your clusters?
+* Using any and all techniques we have learned, build the best predictive model for income_above_50k that you can. What are your best features? What model did you use? What interpretations can you draw?
+* What metric can you use to assess model performance? Why is that a good choice of metric in this case?
+* What are some key insights you found through your analysis?
+
+Please remember: a statement like "PC2 is not a meaningful predictor for our modeling problem" is a great insight; sometimes things don't work!
+
+10 pts PCA
+
+* analysis and interpretation of factor loadings
+* discussion of scree plot and/or analysis of some density plots of PCs
+* meaningful interpretation / discussion of conclusions 
+
+10 pts k-means
+
+* discussion for choosing number of clusters
+* analysis of cluster centers
+* bivariate chart(s) against meaningful variables and/or analysis of density plots
+* meaningful interpretation / discussion of conclusions 
+
+10 pts supervised learning
+
+* feature engineering / selection, whether with PCA or otherwise
+* interpretation of variable importance, coefficients if applicable
+* justification of choice of metric
+* discussion of choice or tuning of hyperparameters, if any
+* meaningful discussion of predictive power and conclusions from model
+
+Please be prepared to 
+
+* Submit your Rmd + compiled html or pdf, *and*
+* Present your findings to the class in a compelling way, speaking for 10 minutes or so. You don't need to cover everything in your analysis that you submit to me, focus on the fun / interesting / compelling highlights or challenges.
