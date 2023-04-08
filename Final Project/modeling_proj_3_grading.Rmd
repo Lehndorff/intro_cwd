@@ -101,6 +101,81 @@ prc %>%
 
 ```{r}
 
+# names(tourney_data2)
+
+tourney_cl = select(tourney_data2,-rank)
+
+kclust3 <- kmeans(tourney_cl, centers = 3)
+
+tourney_clustered3 = augment(kclust3, tourney_data2)
+
+# tourney_clustered3 %>% select(rank, .cluster)
+
+tourney_clustered3 %>% pivot_longer(c(rank),names_to = "feature") %>%
+  ggplot(aes(value, fill=.cluster))+
+  geom_density(alpha=0.3)+
+  facet_wrap(~feature)
+
+kclust4 <- kmeans(tourney_cl, centers = 4)
+
+tourney_clustered4 = augment(kclust4, tourney_data2)
+
+# tourney_clustered4 %>% select(rank, .cluster)
+
+tourney_clustered4 %>% pivot_longer(c(rank),names_to = "feature") %>%
+  ggplot(aes(value, fill=.cluster))+
+  geom_density(alpha=0.3)+
+  facet_wrap(~feature)
+
+kclust5 <- kmeans(tourney_cl, centers = 5)
+
+tourney_clustered5 = augment(kclust5, tourney_data2)
+
+# tourney_clustered5 %>% select(rank, .cluster)
+
+tourney_clustered5 %>% pivot_longer(c(rank),names_to = "feature") %>%
+  ggplot(aes(value, fill=.cluster))+
+  geom_density(alpha=0.3)+
+  facet_wrap(~feature)
+
+#four clusters has the most distinct distributions; cluster 2 are the biggest losers,  clusters 1 & 4 mostly losing, and cluster 3 winners
+tourney_clustered4 %>% group_by(rank, .cluster) %>% summarize(n=n())
+
+kclusts <- tibble(k = 1:9) %>%
+mutate(
+kclust = map(k, ~kmeans(tourney_cl, .x)),
+glanced = map(kclust, glance),
+augmented = map(kclust, augment, tourney_cl)
+)
+
+clusterings <- kclusts %>%
+unnest(glanced, .drop = TRUE)
+ggplot(clusterings, aes(k, tot.withinss)) +
+geom_line() 
+
+
+#hierarchical clustering
+
+hclustr <- hclust(d=dist(tourney_cl))
+summary(hclustr)
+
+plot(hclustr)
+abline(h=3, col="red")
+
+cluster <- cutree(hclustr, k=3)
+tourney_hcl <- tourney_data2 %>%
+add_column(cluster) %>%
+mutate(cluster=as_factor(cluster))
+
+tourney_hcl %>% group_by(rank, cluster) %>% summarize(n=n())
+
+tourney_hcl %>%
+pivot_longer(c(rank),names_to = "feature") %>%
+ggplot(aes(value, fill=cluster))+
+geom_density(alpha=0.3)+
+facet_wrap(~feature)
+
+
 ```
 
 
