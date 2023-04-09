@@ -62,7 +62,11 @@ Please remember: a statement like "PC2 is not a meaningful predictor for our mod
 
 * analysis and interpretation of factor loadings
 * discussion of scree plot and/or analysis of some density plots of PCs
+- the screeplot suggests that the proper number of principle components is 3. 
 * meaningful interpretation / discussion of conclusions 
+- PC1 is correlated with strength of record and inversely with seed (corelated with better seeds) mean that PC1 represents the best seeded teams who also performed well throughout the year. 
+- PC2 is inversely correlated with conference win percentage (as well as conference wins and losses). This indicates teams that struggled in conference. 
+- PC3 is inversely correlated with both points for and points against suggest that these are teams with strong defenses but poor offenses. 
 
 ```{r}
 pr_tourney <- prcomp(x = select(tourney_data2,-rank), scale = T, center = T)
@@ -90,15 +94,17 @@ prc %>%
 
 
 ```
-Screeplot suggests that the ideal number of components is three. 
-
 
 10 pts k-means
 
 * discussion for choosing number of clusters
+  - We conducted unsupervised learning for various cluster sizes. We looked at two to 10 clusters and charted those by strength of record (SRS) and overall win percentage (Ovr_Pct). We also examined three to five clusters by rank in some density plots. The clusters for our data do not tend to results in visually distinct groupings.
 * analysis of cluster centers
+  - The clusters do somewhat distinguish between teams with strong records and high win percentages and teams with less strong records and low win percentages. We do have an issue with overlapping clusters. Our models did not find the clusters to be of importance with predicting rank.
 * bivariate chart(s) against meaningful variables and/or analysis of density plots
+x
 * meaningful interpretation / discussion of conclusions 
+We chose not to include clusters in our final model as none of the clusters were identified as a variable of importance.
 
 ```{r}
 # names(tourney_data2)
@@ -153,6 +159,13 @@ unnest(glanced, .drop = TRUE)
 ggplot(clusterings, aes(k, tot.withinss)) +
 geom_line() 
 
+assignments <- kclusts %>%
+unnest(augmented)
+
+ggplot(assignments, aes(Ovr_Pct, SRS)) +
+geom_point(aes(color = .cluster), alpha=0.3) +
+facet_wrap(~ k)
+
 
 #hierarchical clustering
 
@@ -182,10 +195,17 @@ facet_wrap(~feature)
 10 pts supervised learning
 
 * feature engineering / selection, whether with PCA or otherwise
+- for simplicity we selected 20 predictors that were the most important in an early version of a random forest model. This happens to include the two of the PCA variables. 
 * interpretation of variable importance, coefficients if applicable
+- With this subset of variables, number of wins (Ovr_W), strength of record (SRS) and strong_record_seed (the principle component for teams with the best seeds AND best records) are the most important variable. Strength of schedule (SOS) was also important.  
 * justification of choice of metric
+- We evaluated our models in two ways. First, using kappa and ROC AUC for the out of sample for test data prior to 2023. This allowed us to test the predictive power of the model while not being overly reliant on accuracy -- most teams do not make the Sweet 16. To make our model result more applicable, we also tested our model against the 2023 tournament results. We required that the model only predict 16 teams for this test, so our evaluation metric for this test was number of Sweet 16 correctly predicted. 
 * discussion of choice or tuning of hyperparameters, if any
+- GBM models requires interaction.depth, n.trees, shrinkage and n.minobsinnode. We tuned based on a grid of these values.
 * meaningful discussion of predictive power and conclusions from model
+- Our model successfully predicted 11 of the 16 in the 2023 tournament. Our model failed to predicted Cinderella Princeton as well as Michigan State, Florida Atlantic Owls, Arkansas Razorbacks, Tennessee Volunteers. I their place, the model predicted high seeded teams - Duke, Arizona, Purdue, Kansas, Marquette. 
+
+
 
 ```{r}
 table(prc$rank==tourney_clustered5$rank) #Check that prc and tourney_clustered4 are ordered the same
@@ -203,23 +223,69 @@ test_2023<-full_tourney_features %>%
 
 full_tourney_features<-full_tourney_features %>% 
   filter(tourn_year!=2023)
-  
+
+
+set.seed(504)
 train<-full_tourney_features %>% 
   group_by(rank) %>% #Sample within outcomes to ensure representativeness
   sample_frac(.8)
 test<-full_tourney_features %>% 
   anti_join(train)
 
-control <- trainControl(method = "boot", number = 1)
-# ctrl <- trainControl(method = "cv", number = 5)
-fit_rf <- train(rank ~ .,
-             data = train,
-             method = "rf",
+control <- trainControl(method = "boot", number = 3)
+# control <- trainControl(method = "cv", number = 5)
+# fit_rf <- train(rank ~ .,
+#              data = train,
+#              method = "rf",
+#              tuneLength = 10,
+#              trControl = control)
+# 
+# plot(varImp(fit_rf),top=20)
+# 
+# pred <- predict(fit_rf, newdata=test)
+# 
+# best_thresh<-function(x){
+#   pred2<-as.numeric(pred>x)
+#   output<-as.numeric(confusionMatrix(factor(pred2),factor(test$rank))$overall[2])
+#   return(output)
+# }
+# 
+# cutoff<-data.frame(thresh=seq(0,1,.01)) %>%
+#   mutate(best=sapply(thresh,best_thresh)) %>%
+#   filter(best==max(best)) %>%
+#   pull(thresh)
+# pred2<-as.numeric(pred>cutoff[1])
+# 
+# confusionMatrix(factor(pred2),factor(test$rank))
+# 
+# pred <- predict(fit_rf, newdata=test_2023)
+# 
+# 
+# nth_val<-sort(pred,decreasing = T)[2^4] #For current year, should only predicted as many teams as is actually possible
+# pred2<-as.numeric(pred>=nth_val)
+# table(pred2)
+# 
+# confusionMatrix(factor(pred2),factor(test_2023$rank))
+
+
+#model GM
+Grid <- expand.grid(interaction.depth=c(1, 5, 10, 20), n.trees = (1:10)*50,
+                   shrinkage=c(0.01, 0.001)
+                   ,
+                   n.minobsinnode=1:10
+                   )
+
+
+fit_gbm <- train(rank ~ .,
+             data = train, 
+             method = "gbm",
+             verbose=FALSE,
+             tuneGrid=Grid,
              trControl = control)
+library(gbm)
+plot(varImp(fit_gbm))
 
-plot(varImp(fit_rf),top=20)
-
-pred <- predict(fit_rf, newdata=test)
+pred <- predict(fit_gbm, newdata=test)
 
 best_thresh<-function(x){
   pred2<-as.numeric(pred>x)
@@ -235,22 +301,80 @@ pred2<-as.numeric(pred>cutoff[1])
 
 confusionMatrix(factor(pred2),factor(test$rank))
 
-pred <- predict(fit_rf, newdata=test_2023)
+library(pROC)
 
+myRoc <- roc(test$rank, pred)
+plot(myRoc)
+auc(myRoc)
+
+pred <- predict(fit_gbm, newdata=test_2023)
 
 nth_val<-sort(pred,decreasing = T)[2^4] #For current year, should only predicted as many teams as is actually possible
-pred2<-as.numeric(pred>=nth_val)
-table(pred2)
+pred_gbm<-as.numeric(pred>=nth_val)
+table(pred_gbm)
 
-confusionMatrix(factor(pred2),factor(test_2023$rank))
+confusionMatrix(factor(pred_gbm),factor(test_2023$rank))
+
+# #knn
+# 
+# fit_knn <- train(rank ~ .,
+#              data = train, 
+#              method = "knn",
+#              tuneLength = 15,
+#              trControl = control)
+# 
+# pred <- predict(fit_knn, newdata=test_2023)
+# 
+# nth_val<-sort(pred,decreasing = T)[2^4] #For current year, should only predicted as many teams as is actually possible
+# pred_knn<-as.numeric(pred>=nth_val)
+# table(pred_knn)
+# 
+# confusionMatrix(factor(pred_knn),factor(test_2023$rank))
+# 
+# ##naive bayes, NOT WORKING
+# # fit_nv <- train(rank ~ .,
+# #              data = train, 
+# #              method = "naive_bayes",
+# #              tuneGrid = expand.grid(usekernel = c(T,F), laplace = T, adjust = T),
+# #              metric = "Kappa",
+# #              trControl = trainControl(method = "cv"))
+# 
+# #glm, NOT GREAT
+# fit_glm <- train(as.factor(rank) ~ .,
+#              data = train, 
+#              trControl = control,
+#              method = "glm",
+#              family = "binomial")
+# 
+# 
+# pred_glm <- predict(fit_glm, newdata=test_2023)
+# 
+# confusionMatrix(factor(pred_glm),factor(test_2023$rank))
+# 
+# #xb tree
+# fit_xb <- train(rank ~ .,
+#              data = train, 
+#              method = "xgbTree",
+#              verbose=FALSE,
+#              trControl = control)
+# 
+# 
+# pred <- predict(fit_xb, newdata=test_2023)
+# 
+# 
+# nth_val<-sort(pred,decreasing = T)[2^4] #For current year, should only predicted as many teams as is actually possible
+# pred_xb<-as.numeric(pred>=nth_val)
+# 
+# confusionMatrix(factor(pred_xb),factor(test_2023$rank))
+
+#select tree as final model!
 
 prediction_output<-tourney_data %>% 
   filter(tourn_year==2023) %>% 
   mutate(rank=as.numeric(rank<=4)) %>% # <=4 = Did team make the sweet 16 (one of the final 2^4 teams)
-  mutate(prediction=pred2) %>% 
-  select(team, Seed, rank, prediction) %>% 
+  mutate(prediction=pred_gbm,raw_pred=pred) %>% 
+  select(team, Seed, rank, prediction,raw_pred) %>% 
   mutate(correct=rank==prediction)
-
 
 ```
 
