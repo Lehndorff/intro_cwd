@@ -65,7 +65,42 @@ Please remember: a statement like "PC2 is not a meaningful predictor for our mod
 * meaningful interpretation / discussion of conclusions 
 
 ```{r}
+pr_tourney <- prcomp(x = select(tourney_data2,-rank), scale = T, center = T)
+summary(pr_tourney)
 
+screeplot(pr_tourney, type = "lines")
+
+rownames_to_column(as.data.frame(pr_tourney$rotation)) %>% 
+  select(1:4) %>% 
+  filter(abs(PC1) >= 0.25 | abs(PC2) >= 0.25 | abs(PC3) >= 0.25) %>% 
+  View()
+
+prc <- bind_cols(select(tourney_data2,rank),as.data.frame(pr_tourney$x)) %>% 
+  select(1:4) %>% 
+  rename("strong_record_seed" = PC1) %>% 
+  rename("struggle_in_conf" = PC2) %>% 
+  rename("defense_focus" = PC3) 
+head(prc)
+
+prc %>% 
+  pivot_longer(cols = -rank,names_to = "component",values_to = "loading") %>% 
+  ggplot(aes(x=loading, fill=factor(rank),group=rank))+
+  geom_density(alpha=0.5)+
+  facet_wrap(.~component,scales = "free_y")
+
+
+```
+Screeplot suggests that the ideal number of components is three. 
+
+
+10 pts k-means
+
+* discussion for choosing number of clusters
+* analysis of cluster centers
+* bivariate chart(s) against meaningful variables and/or analysis of density plots
+* meaningful interpretation / discussion of conclusions 
+
+```{r}
 # names(tourney_data2)
 
 tourney_cl = select(tourney_data2,-rank)
