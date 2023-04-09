@@ -65,41 +65,6 @@ Please remember: a statement like "PC2 is not a meaningful predictor for our mod
 * meaningful interpretation / discussion of conclusions 
 
 ```{r}
-pr_tourney <- prcomp(x = select(tourney_data2,-rank), scale = T, center = T)
-summary(pr_tourney)
-
-screeplot(pr_tourney, type = "lines")
-
-rownames_to_column(as.data.frame(pr_tourney$rotation)) %>% 
-  select(1:4) %>% 
-  filter(abs(PC1) >= 0.25 | abs(PC2) >= 0.25 | abs(PC3) >= 0.25) %>% 
-  View()
-
-prc <- bind_cols(select(tourney_data2,rank),as.data.frame(pr_tourney$x)) %>% 
-  select(1:4) %>% 
-  rename("strong_record_seed" = PC1) %>% 
-  rename("struggle_in_conf" = PC2) %>% 
-  rename("defense_focus" = PC3) 
-head(prc)
-
-prc %>% 
-  pivot_longer(cols = -rank,names_to = "component",values_to = "loading") %>% 
-  ggplot(aes(x=loading, fill=factor(rank),group=rank))+
-  geom_density(alpha=0.5)+
-  facet_wrap(.~component,scales = "free_y")
-
-
-```
-
-
-10 pts k-means
-
-* discussion for choosing number of clusters
-* analysis of cluster centers
-* bivariate chart(s) against meaningful variables and/or analysis of density plots
-* meaningful interpretation / discussion of conclusions 
-
-```{r}
 
 # names(tourney_data2)
 
@@ -188,6 +153,69 @@ facet_wrap(~feature)
 * meaningful discussion of predictive power and conclusions from model
 
 ```{r}
+table(prc$rank==tourney_clustered5$rank) #Check that prc and tourney_clustered4 are ordered the same
+
+full_tourney_features<-tourney_clustered5 %>% 
+  cbind(prc %>% select(-rank)) %>% 
+  select("rank","SRS","strong_record_seed","Ovr_W","SOS","Seed","tourn_year",
+       "struggle_in_conf","Ovr_Pct","defense_focus","Pts_against","Pts_for","Ovr_L",
+       "Conf_Pct","Conf_W","AP Final_Not 25","lag_rank","Conf_L",
+       "team_Syracuse Orange Men's Basketball","AP High_Top 5","AP Pre_Not 25"
+       )
+
+test_2023<-full_tourney_features %>% 
+  filter(tourn_year==2023)
+
+full_tourney_features<-full_tourney_features %>% 
+  filter(tourn_year!=2023)
+  
+train<-full_tourney_features %>% 
+  group_by(rank) %>% #Sample within outcomes to ensure representativeness
+  sample_frac(.8)
+test<-full_tourney_features %>% 
+  anti_join(train)
+
+control <- trainControl(method = "boot", number = 1)
+# ctrl <- trainControl(method = "cv", number = 5)
+fit_rf <- train(rank ~ .,
+             data = train,
+             method = "rf",
+             trControl = control)
+
+plot(varImp(fit_rf),top=20)
+
+pred <- predict(fit_rf, newdata=test)
+
+best_thresh<-function(x){
+  pred2<-as.numeric(pred>x)
+  output<-as.numeric(confusionMatrix(factor(pred2),factor(test$rank))$overall[2])
+  return(output)
+}
+
+cutoff<-data.frame(thresh=seq(0,1,.01)) %>%
+  mutate(best=sapply(thresh,best_thresh)) %>%
+  filter(best==max(best)) %>%
+  pull(thresh)
+pred2<-as.numeric(pred>cutoff[1])
+
+confusionMatrix(factor(pred2),factor(test$rank))
+
+pred <- predict(fit_rf, newdata=test_2023)
+
+
+nth_val<-sort(pred,decreasing = T)[2^4] #For current year, should only predicted as many teams as is actually possible
+pred2<-as.numeric(pred>=nth_val)
+table(pred2)
+
+confusionMatrix(factor(pred2),factor(test_2023$rank))
+
+prediction_output<-tourney_data %>% 
+  filter(tourn_year==2023) %>% 
+  mutate(rank=as.numeric(rank<=4)) %>% # <=4 = Did team make the sweet 16 (one of the final 2^4 teams)
+  mutate(prediction=pred2) %>% 
+  select(team, Seed, rank, prediction) %>% 
+  mutate(correct=rank==prediction)
+
 
 ```
 
