@@ -269,10 +269,14 @@ control <- trainControl(method = "boot", number = 3)
 
 
 #model GM
-Grid <- expand.grid(interaction.depth=c(1, 5, 10, 20), n.trees = (1:10)*50,
-                   shrinkage=c(0.01, 0.001)
-                   ,
-                   n.minobsinnode=1:10
+# Grid <- expand.grid(interaction.depth=c(1, 5, 10, 20), n.trees = (1:10)*50,
+#                    shrinkage=c(0.01, 0.001)
+#                    ,
+#                    n.minobsinnode=1:10
+#                    )
+Grid <- expand.grid(interaction.depth=c(1, 5, 10, 20), n.trees = seq(2,10,2)*50,
+                   shrinkage=c(0.01, 0.001),
+                   n.minobsinnode=seq(2,8,2)
                    )
 
 
@@ -283,7 +287,7 @@ fit_gbm <- train(rank ~ .,
              tuneGrid=Grid,
              trControl = control)
 library(gbm)
-plot(varImp(fit_gbm))
+plot(varImp(fit_gbm),20)
 
 pred <- predict(fit_gbm, newdata=test)
 
@@ -314,6 +318,10 @@ pred_gbm<-as.numeric(pred>=nth_val)
 table(pred_gbm)
 
 confusionMatrix(factor(pred_gbm),factor(test_2023$rank))
+
+myRoc <- roc(test_2023$rank, pred)
+plot(myRoc)
+auc(myRoc)
 
 # #knn
 # 
@@ -375,6 +383,10 @@ prediction_output<-tourney_data %>%
   mutate(prediction=pred_gbm,raw_pred=pred) %>% 
   select(team, Seed, rank, prediction,raw_pred) %>% 
   mutate(correct=rank==prediction)
+
+prediction_output %>% 
+  select(team,Seed,pct_prediction=raw_pred,prediction,actual=rank,correct) %>% 
+  View()
 
 ```
 
